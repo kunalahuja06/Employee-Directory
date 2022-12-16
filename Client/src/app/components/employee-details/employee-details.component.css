@@ -1,0 +1,25 @@
+.dark-modal .modal-content {
+    background-color: #292b2c;
+    color: white;
+}
+.dark-modal .close {
+    color: white;
+}
+.light-blue-backdrop {
+    background-color: #5cb3fd;
+}
+.row>:not(.submit-button){
+    padding:0 !important;
+}
+
+
+/* Mobile UI */
+.mobile-btn{
+    border:none !important;
+}
+.mobile-btn>i{
+    font-size: 2rem;
+}
+.employee-details-mobile label{
+    font-weight: 600;
+}

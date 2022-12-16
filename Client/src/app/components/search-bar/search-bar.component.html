@@ -1,0 +1,33 @@
+<ul class="list-group list-group-horizontal d-flex justify-content-lg-between" *ngIf="!mobileView">
+    <li class="search-alphabets-li list-group-item"><a href="#"
+            class="search-alphabets-li-a text-decoration-none text-white" (click)="showEmployees()"><i
+                class="fa-solid fa-user"></i></a></li>
+    <li *ngFor="let i of alphabets" class="search-alphabets-li list-group-item"><a href="#"
+            class="search-alphabets-li-a text-decoration-none text-white" (click)="searchByAlphabets(i)">{{i}}</a></li>
+</ul>
+<div class="search-bar d-flex my-auto" [ngClass]="{'py-3':!mobileView}">
+    <p class="search-para text-capitalize fw-normal my-auto" *ngIf="!mobileView">search</p>
+    <input type="text" class="search-input mx-3 my-auto pe-lg-5" placeholder="Enter any keyword"
+        [(ngModel)]="searchInput" (input)="search()" *ngIf="!mobileView">
+    <a href="#" class="clear-button text-capitalize text-decoration-none my-auto px-3 py-1 text-white ms-3 me-5"
+        *ngIf="!mobileView" (click)="clear()">clear</a>
+    <p class="filter-para my-auto mx-2">Filter by</p>
+    <select id="filter" class="filter-options ps-2 pe-5 pb-1" [ngClass]="{'ps-3 pt-1':mobileView}" [(ngModel)]="searchFilterInput" (ngModelChange)="filterChange()">
+        <option value="preferredName" class="text-capitalize">preferred name</option>
+        <option value="firstName" class="text-capitalize">first name</option>
+        <option value="lastName" class="text-capitalize">last name</option>
+        <option value="email" class="text-capitalize">email</option>
+        <option value="jobTitle" class="text-capitalize">job title</option> 
+        <option value="office" class="text-capitalize">office</option>
+        <option value="department" class="text-capitalize">department</option>
+        <option value="phoneNumber" class="text-capitalize">phone number</option>
+        <option value="skypeID" class="text-capitalize">skype id</option>
+    </select>
+    <a href="#" class="add-employee text-capitalize ms-auto text-decoration-none text-white my-auto px-2 py-1 fw-bold"
+        (click)="openVerticallyCentered(addEmployee)" *ngIf="!mobileView">add employee</a>
+</div>
+<p class="note" *ngIf="!mobileView"><b>Note:</b> Please use the advanced filter options to refine your results.</p>
+
+<ng-template #addEmployee let-modal>
+    <app-employee-details></app-employee-details>
+</ng-template>

@@ -1,0 +1,213 @@
+<ng-container *ngIf="!mobileView">
+  <div class="modal-header">
+    <h5 class="modal-title text-capitalize">{{employeeFormTitle}}</h5>
+    <button type="button" class="btn-close" aria-label="Close" (click)="closeModal()"></button>
+  </div>
+  <div class="modal-body">
+    <form class="px-3" [formGroup]="employeeForm" (ngSubmit)="saveEmployee()">
+      <!-- Perferred Name -->
+      <div class="row mb-3">
+        <div class="form-floating">
+          <input type="text" class="form-control" placeholder="Preferred Name" name="preferredName"
+            formControlName="preferredName" required>
+          <label for="PreferredName">Preferred Name</label>
+        </div>
+      </div>
+      <!-- Names -->
+      <div class="row mb-3">
+        <div class="form-floating col">
+          <input type="text" class="form-control" placeholder="First Name" name="firstName" formControlName="firstName"
+            required #first (input)="setPrefName(first.value,last.value)">
+          <label for="FirstName">First Name</label>
+          <span *ngIf="firstName && firstName.invalid && firstName.touched" class="text-capitalize text-danger">invalid
+            name</span>
+        </div>
+        <div class="form-floating col ms-3">
+          <input type="text" class="form-control" placeholder="Last Name" name="lastName" formControlName="lastName"
+            #last (input)="setPrefName(first.value,last.value)">
+          <label for="LastName">Last Name</label>
+        </div>
+      </div>
+      <!-- Email -->
+      <div class="row mb-3">
+        <div class="form-floating">
+          <input type="email" class="form-control" placeholder="name@example.com" name="email" formControlName="email"
+            required>
+          <label for="Email">Email address</label>
+          <span *ngIf="email && email.invalid && email.touched" class="text-capitalize text-danger">invalid email</span>
+        </div>
+      </div>
+      <!-- Number and skype -->
+      <div class="row mb-3">
+        <div class="form-floating number col">
+          <input type="tel" class="form-control" placeholder="1234567890" name="phoneNumber"
+            formControlName="phoneNumber" required>
+          <label for="Number">Phone Number</label>
+          <span *ngIf="phoneNumber && phoneNumber.invalid && phoneNumber.touched"
+            class="text-capitalize text-danger">invalid phone number</span>
+        </div>
+        <div class="form-floating col ms-3">
+          <input type="tel" class="form-control" placeholder="live:xyz" name="skypeId" formControlName="skypeId"
+            required>
+          <label for="SkypeID">SkypeID</label>
+          <span *ngIf="skypeId && skypeId.invalid && skypeId.touched" class="text-capitalize text-danger">invalid
+            skypeid!
+            should start with live:</span>
+        </div>
+      </div>
+      <!-- Job title and department -->
+      <div class="row mb-3">
+        <div class="form-floating col">
+          <select class="form-select text-capitalize" formControlName="jobTitle" required>
+            <option *ngFor="let jobTitle of jobTitlesList" [ngValue]="jobTitle" class="text-capitalize">{{jobTitle}}
+            </option>
+          </select>
+          <label for="JobTitle">Job Title</label>
+        </div>
+        <div class="form-floating col ms-3">
+          <select class="form-select text-capitalize" name="department" formControlName="department" required>
+            <option value="IT" class="text-capitalize">IT</option>
+            <option value="HR" class="text-capitalize">human resources</option>
+            <option value="MD" class="text-capitalize">MD</option>
+            <option value="Sales" class="text-capitalize">sales</option>
+          </select>
+          <label for="Department">Department</label>
+        </div>
+      </div>
+      <!-- office -->
+      <div class="row mb-3">
+        <div class="form-floating">
+          <select class="form-select text-capitalize" name="office" formControlName="office" required>
+            <option *ngFor="let office of officeList" [ngValue]="office">{{ office }}</option>
+          </select>
+          <label for="Office">Office</label>
+        </div>
+      </div>
+      <!-- picture -->
+      <div class="row mb-3">
+        <div class="form-floating">
+          <input type="text" class="form-control" placeholder="Image URL here" name="picture" required
+            formControlName="picture">
+          <label for="Image">Profile Picture (Image URL)</label>
+        </div>
+      </div>
+      <!-- Submit button -->
+      <div class="row">
+        <button type="submit" class="submit-button btn btn-primary fw-bold py-2"
+          [disabled]="employeeForm.invalid">Submit</button>
+      </div>
+    </form>
+  </div>
+</ng-container>
+
+
+<!-- Mobile UI -->
+<ng-container *ngIf="mobileView">
+  <div class="employee-details-mobile">
+    <form class="px-3" [formGroup]="employeeForm" (ngSubmit)="saveEmployee()">
+      <!-- Perferred Name -->
+      <div class="row mb-2">
+        <div>
+          <label for="PreferredName" class="form-label">Preferred Name</label>
+          <input type="text" class="form-control" placeholder="John Doe" name="preferredName"
+            formControlName="preferredName" required>
+        </div>
+      </div>
+      <!-- Names -->
+      <div class="row mb-2">
+        <div>
+          <label for="FirstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" placeholder="First Name" name="firstName" formControlName="firstName"
+            required #first (input)="setPrefName(first.value,last.value)">
+          <span *ngIf="firstName && firstName.invalid && firstName.touched" class="text-capitalize text-danger">invalid
+            name</span>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div>
+          <label for="LastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" placeholder="Last Name" name="lastName" formControlName="lastName"
+            #last (input)="setPrefName(first.value,last.value)">
+        </div>
+      </div>
+      <!-- Email -->
+      <div class="row mb-2">
+        <div>
+          <label for="Email" class="form-label">Email address</label>
+          <input type="email" class="form-control" placeholder="name@example.com" name="email" formControlName="email"
+            required>
+          <span *ngIf="email && email.invalid && email.touched" class="text-capitalize text-danger">invalid email</span>
+        </div>
+      </div>
+      <!-- Number and skype -->
+      <div class="row mb-2">
+        <div class="number">
+          <label for="Number" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" placeholder="1234567890" name="phoneNumber"
+            formControlName="phoneNumber" required>
+          <span *ngIf="phoneNumber && phoneNumber.invalid && phoneNumber.touched"
+            class="text-capitalize text-danger">invalid phone number</span>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div>
+          <label for="SkypeID" class="form-label">SkypeID</label>
+          <input type="tel" class="form-control" placeholder="live:xyz" name="skypeId" formControlName="skypeId"
+            required>
+          <span *ngIf="skypeId && skypeId.invalid && skypeId.touched" class="text-capitalize text-danger">invalid
+            skypeid!
+            should start with live:</span>
+        </div>
+      </div>
+      <!-- Job title and department -->
+      <div class="row mb-2">
+        <div>
+          <label for="JobTitle" class="form-label">Job Title</label>
+          <select class="form-select text-capitalize" formControlName="jobTitle" required>
+            <option *ngFor="let jobTitle of jobTitlesList" [ngValue]="jobTitle" class="text-capitalize">{{jobTitle}}
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div>
+          <label for="Department" class="form-label">Department</label>
+          <select class="form-select text-capitalize" name="department" formControlName="department" required>
+            <option value="IT" class="text-capitalize">IT</option>
+            <option value="HR" class="text-capitalize">human resources</option>
+            <option value="MD" class="text-capitalize">MD</option>
+            <option value="Sales" class="text-capitalize">sales</option>
+          </select>
+        </div>
+      </div>
+      <!-- office -->
+      <div class="row mb-2">
+        <div>
+          <label for="Office" class="form-label">Office</label>
+          <select class="form-select text-capitalize" name="office" formControlName="office" required>
+            <option *ngFor="let office of officeList" [ngValue]="office">{{ office }}</option>
+          </select>
+        </div>
+      </div>
+      <!-- picture -->
+      <div class="row mb-2">
+        <div>
+          <label for="Image" class="form-label">Profile Picture (Image URL)</label>
+          <input type="text" class="form-control" placeholder="Image URL here" name="picture" required
+            formControlName="picture">
+        </div>
+      </div>
+      <!-- Submit button -->
+      <div class="row" *ngIf="!mobileView">
+        <button type="submit" class="submit-button btn btn-primary fw-bold py-2"
+          [disabled]="employeeForm.invalid">Submit</button>
+      </div>
+      <div class="row m-0 pt-2" *ngIf="mobileView">
+        <button type="button" class="col bg-white mobile-btn" (click)="closeCanvas()"><i
+            class="fa-solid fa-x text-danger"></i></button>
+        <button type="submit" class="col bg-white mobile-btn" [disabled]="employeeForm.invalid"><i
+            class="fa-solid fa-check text-success"></i></button>
+      </div>
+    </form>
+  </div>
+</ng-container>

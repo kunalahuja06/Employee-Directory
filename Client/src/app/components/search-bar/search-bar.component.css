@@ -1,0 +1,41 @@
+.search-alphabets-li{
+    border-radius: 0 !important;
+    text-transform: uppercase;
+    background-color: rgba(0,176,253,255) !important;
+    color: white !important;
+    border: 0;
+}
+.search-bar>select{
+    -webkit-appearance:none; /* Safari and Chrome */
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position:9rem 0.2rem;
+}
+.search-input{
+    background: url('./../../../assets/images/search-icon.svg');
+    background-size:1rem;
+    background-position:0.4rem 0.5rem;
+    background-repeat: no-repeat;
+    padding-left:2rem;
+    border:1px solid rgba(1,1,1,0.3);
+    height:2.1rem;
+}
+::-webkit-input-placeholder{
+    color: rgba(1,1,1,0.6);
+}
+.clear-button{
+    background-color:rgba(105,186,0,255);
+}
+.filter-options{
+    border: 1px solid rgba(1,1,1,0.3);
+    text-transform: capitalize;
+    color:rgba(1,1,1,0.6);
+}
+.add-employee{
+    background-color: rgba(0,176,253,255);
+}
+.note{
+    font-size: 0.8rem !important;
+}
+
+/* Mobile UI */

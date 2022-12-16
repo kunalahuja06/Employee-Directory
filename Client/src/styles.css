@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+.offcanvas.offcanvas-start{
+    width: max-content !important;
+}
+
+.offcanvas.offcanvas-bottom{
+    height: 100% !important;
+}

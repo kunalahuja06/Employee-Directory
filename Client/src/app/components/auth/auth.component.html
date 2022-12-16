@@ -1,0 +1,64 @@
+<div class="auth mx-auto py-2 px-4 col-lg-4">
+    <ng-container *ngIf="register then Register; else login;">
+    </ng-container>
+</div>
+
+
+<ng-template #Register>
+    <div class="header text-center">
+        <p class="fs-3 fw-bold">Register</p>
+    </div>
+    <form class="register" [formGroup]="RegisterForm" (ngSubmit)="registerUser()">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" name="email" placeholder="name@example.com" formControlName="email"
+                required>
+            <label for="Email fs-1 fw-bold">Email address</label>
+            <span *ngIf="email && email.invalid && email.touched" class="text-capitalize text-danger">invalid
+                email</span>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" name="password" placeholder="Password"
+                formControlName="password" required>
+            <label for="Password fs-1 fw-bold">Password</label>
+            <span *ngIf="password && password.invalid && password.touched" class="text-capitalize text-danger">invalid
+                password</span>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" name="ConfirmPassword" placeholder="Password"
+                formControlName="confirmPassword" required>
+            <label for="ConfirmPassword fs-1 fw-bold">Confirm Password</label>
+            <span *ngIf="confirmPassword && confirmPassword.invalid && confirmPassword.touched"
+                class="text-capitalize text-danger">invalid password</span>
+        </div>
+        <button type="submit" class="btn btn-primary col-12" [disabled]="RegisterForm.invalid">Register</button>
+    </form>
+    <p class="text-center text-secondary py-2">Already Registered? <a href="#" (click)="register=!register"
+            class="text-decoration-none">Login</a></p>
+</ng-template>
+
+<ng-template #login>
+    <div class="header text-center">
+        <p class="fs-3 fw-bold">Login</p>
+    </div>
+    <form class="login" [formGroup]="LoginForm" (ngSubmit)="loginUser()">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" name="email" placeholder="name@example.com" formControlName="Email"
+                required>
+            <label for="Email fs-1 fw-bold">Email address</label>
+            <span *ngIf="email && email.invalid && email.touched" class="text-capitalize text-danger">invalid
+                email</span>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" name="password" placeholder="Password"
+                formControlName="Password" required>
+            <label for="Password fs-1 fw-bold">Password</label>
+            <span *ngIf="password && password.invalid && password.touched" class="text-capitalize text-danger">invalid
+                password</span>
+        </div>
+        <button type="submit" class="btn btn-primary col-12" [disabled]="LoginForm.invalid">Login</button>
+    </form>
+    <p class="text-center text-secondary py-2">Not Registered? <a href="#" (click)="register=!register"
+            class="text-decoration-none">Register</a></p>
+</ng-template>
+
+<router-outlet></router-outlet>

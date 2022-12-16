@@ -1,0 +1,64 @@
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\appsettings.Development.json
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\appsettings.json
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Address Book.exe
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Address Book.deps.json
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Address Book.runtimeconfig.json
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Address Book.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Address Book.pdb
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Humanizer.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\MySqlConnector.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Internship_Tasks\Task 6\Address Book\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\Address Book.csproj.AssemblyReference.cache
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\Address Book.GeneratedMSBuildEditorConfig.editorconfig
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\Address Book.AssemblyInfoInputs.cache
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\Address Book.AssemblyInfo.cs
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\Address Book.csproj.CoreCompileInputs.cache
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\Address Book.MvcApplicationPartsAssemblyInfo.cs
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\Address Book.MvcApplicationPartsAssemblyInfo.cache
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\staticwebassets.build.json
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\staticwebassets.development.json
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\scopedcss\bundle\Address Book.styles.css
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\Address Book.csproj.CopyComplete
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\Address Book.dll
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\refint\Address Book.dll
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\Address Book.pdb
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\Address Book.genruntimeconfig.cache
+E:\Internship_Tasks\Task 6\Address Book\obj\Debug\net6.0\ref\Address Book.dll

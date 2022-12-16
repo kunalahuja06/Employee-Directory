@@ -1,0 +1,15 @@
+.filter-li{
+    list-style: none;
+    color:rgba(1,1,1,0.6) !important;
+    text-transform: capitalize;
+    font-size:0.9rem;
+}
+.filter-li-a{
+    color:rgba(1,1,1,0.6) !important;
+}
+
+/* Mobile UI */
+
+.filter-title-mobile{
+    font-size: 0.9rem !important;
+}

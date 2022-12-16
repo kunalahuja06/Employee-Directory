@@ -1,0 +1,148 @@
+<div [ngClass]="{'employee col-3':!mobileView,'employee-mobile mb-3 mx-auto':mobileView}" class="d-flex" id="employee" (click)="mobileView?openBottom(mobileContent):openVerticallyCentered(content)">
+  <div>
+      <img src={{employee.picture}} class="picture p-2" [class.picture-mobile]="mobileView">
+  </div>
+  <div class="p-2 pe-4" [class.pe-4]="!mobileView" [class.d-flex]="mobileView" [class.align-items-center]="mobileView">
+      <h5 class="employee-name text-nowrap m-0"><a href="#" class=" employee-name-a text-decoration-none" [class.fs-6]="mobileView" [class.fw-normal]="mobileView">{{employee.preferredName}}</a></h5>
+      <p class="job-title text-nowrap m-0 text-capitalize" *ngIf="!mobileView">{{employee.jobTitle}}</p>
+      <p class="department text-nowrap m-0" *ngIf="!mobileView">{{employee.department}} Department</p>
+      <span class="d-flex" *ngIf="!mobileView">
+          <a href="#" class="contact-icon me-2"><i class="fa-solid fa-square-phone"></i></a>
+          <a href="#" class="contact-icon me-2"><i class="fa-solid fa-envelope"></i></a>
+          <a href="#" class="contact-icon me-2"><i class="fa-solid fa-comment"></i></a>
+          <a href="#" class="contact-icon me-2"><i class="fa-solid fa-star"></i></a>
+          <a href="#" class="contact-icon me-2"><i class="fa-solid fa-heart"></i></a>
+      </span>
+  </div>
+<ng-template #mobileContent let-offcanvas>
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close ms-auto" aria-label="Close" (click)="offcanvas.dismiss()"></button>
+    </div>
+    <div class="offcanvas-body px-4 pb-0">
+        <!-- Body -->
+        <img src={{employee.picture}} alt="user" class="me-auto mx-auto user-img">
+        <h1 class="fw-normal my-3">{{employee.preferredName}}</h1>
+        <div class="pb-4">
+            <p class="fw-normal mb-0 emp-details-mobile">{{employee.jobTitle}}</p>
+            <p class="fw-normal mb-0 emp-details-mobile">{{employee.department}} Department</p>
+            <p class="fw-normal mb-0 emp-details-mobile">{{employee.office}}</p>
+        </div>
+        <div class="d-flex">
+            <div class="col-10 d-flex flex-column mb-3">
+                <label for="number" class="fs-2 text-darker">mobile</label>
+                <p class="mobile-text mb-0">{{employee.phoneNumber}}</p>
+            </div>
+            <div class="col-2 d-flex align-items-center justify-content-end">
+                <p class="fs-2 text-success"><i class="fa-solid fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="col-10 d-flex flex-column mb-3">
+                <label for="skypeId" class="fs-2 text-darker">skype</label>
+                <p class="mobile-text mb-0">{{employee.skypeID}}</p>
+            </div>
+            <div class="col-2 d-flex align-items-center justify-content-end">
+                <p class="fs-2 text-primary"><i class="fa-brands fa-skype"></i></p>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="col-10 d-flex flex-column mb-3">
+                <label for="email" class="fs-2 text-darker">email</label>
+                <p class="mobile-text mb-0">{{employee.email}}</p>
+            </div>
+            <div class="col-2 d-flex align-items-center justify-content-end">
+                <p class="fs-2 text-warning"><i class="fa-solid fa-envelope"></i></p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="d-flex justify-content-around mt-4">
+            <span class="fs-2" (click)="openVerticallyCentered(confirmDelete)"><i class="fa-solid fa-trash text-primary"></i></span>
+            <span class="fs-2" (click)="openEnd(editFormMobile)" (click)="triggerEdit()"><i class="fa-solid fa-pencil text-secondary"></i></span>
+        </div>
+    </div>
+</ng-template>
+</div>
+<!--  -->
+
+<!--  -->
+<ng-template #content let-modal>
+    <div class="modal-body mx-auto">
+        <img src={{employee.picture}} alt="user" class="show-employee-modal-picture d-flex mx-auto">
+        <div class="employee-details row pt-1 pb-3 px-5">
+            <p class="text-primary fw-bold mb-0">{{employee.preferredName}}</p>
+        </div>
+        <div class="row py-1 br">
+            <div class="col">
+                <label for="firstname" class="show-employee-modal-label">First Name</label>
+                <p class="fw-bold text-primary mb-0">{{employee.firstName}}</p>
+            </div>
+            <div class="col">
+                <label for="lastname" class="show-employee-modal-label">Last Name</label>
+                <p class="fw-bold text-primary mb-0">{{employee.lastName}}</p>
+            </div>
+        </div>
+        <div class="row py-1 br">
+            <label for="email" class="show-employee-modal-label">Email</label>
+            <p class="fw-bold text-primary mb-0">{{employee.email}}</p>
+        </div>
+        <div class="row py-1 br">
+            <div class="col">
+                <label for="number" class="show-employee-modal-label">Phone-Number</label>
+                <p class="col text-primary fw-bold mb-0">{{employee.phoneNumber}}</p>
+            </div>
+            <div class="col">
+                <label for="skypeid" class="show-employee-modal-label ">Skype ID</label>
+                <p class="col fw-bold text-primary mb-0">{{employee.skypeID}}</p>
+            </div>
+        </div>
+        <div class="row py-1 br">
+            <div class="col">
+                <label for="jobtitle" class="show-employee-modal-label ">Job Title</label>
+                <p class="fw-bold text-primary mb-0">{{employee.jobTitle}}</p>
+            </div>
+            <div class="col">
+                <label for="department" class="show-employee-modal-label ">Department</label>
+                <p class="fw-bold text-primary mb-0">{{employee.department}}</p>
+            </div>
+        </div>
+        <div class="row py-1">
+            <label for="office" class="show-employee-modal-label ">Office</label>
+            <p class="fw-bold text-primary mb-0">{{employee.office}}</p>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between mx-2">
+        <button type="button" class="edit-btn btn btn-warning fw-bold col text-white me-1" (click)="openVerticallyCentered(editForm)"
+            (click)="triggerEdit()">Edit</button>
+        <button type="button" class="dlt-btn btn btn-danger fw-bold col text-white ms-1" (click)="openVerticallyCentered(confirmDelete)">Delete</button>
+    </div>
+    <button type="button" class="btn btn-primary fw-bold m-2" (click)="modal.close('Close click')">Close</button>
+</ng-template>
+
+<ng-template #editFormMobile let-offcanvas>
+    <div class="offcanvas-header">
+        <h4 class="offcanvas-title" id="offcanvas-basic-title">Edit Employee</h4>
+        <button type="button" class="btn-close" aria-label="Close" (click)="offcanvas.dismiss('Cross click')"></button>
+    </div>
+    <div class="offcanvas-body">
+        <app-employee-details></app-employee-details>
+    </div>
+</ng-template>
+
+<ng-template #confirmDelete let-modal>
+    <div class="modal-header">
+        <h5>Delete Employee</h5>
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+        <p class="m-2">Are you sure you want to delete <span class="fw-bold text-primary">{{employee.preferredName}}</span>?</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-danger" (click)="deleteEmployee()">Yes</button>
+        <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">No</button>
+    </div>
+</ng-template>
+
+<ng-template #editForm let-modal >
+    <app-employee-details></app-employee-details>
+</ng-template>
+
