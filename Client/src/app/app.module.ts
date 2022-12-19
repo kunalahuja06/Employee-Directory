@@ -17,6 +17,9 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AuthComponent } from './components/auth/auth.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AuthService } from './services/shared/auth-service.service';
+import { SigninRedirectCallbackComponent } from './components/signin-redirect-callback/signin-redirect-callback.component';
+import { SignoutRedirectCallbackComponent } from './components/signout-redirect-callback/signout-redirect-callback.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -28,8 +31,9 @@ import { AuthService } from './services/shared/auth-service.service';
     EmployeeComponent,
     EmployeeDetailsComponent,
     AuthComponent,
-    
-    
+    SigninRedirectCallbackComponent,
+    SignoutRedirectCallbackComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

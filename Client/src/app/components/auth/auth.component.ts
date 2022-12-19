@@ -9,7 +9,7 @@ import { AuthService } from 'src/app/services/shared/auth-service.service';
 })
 export class AuthComponent implements OnInit {
 
-  constructor(private auth:AuthService) { }
+  constructor(private authService:AuthService) { }
 
   ngOnInit(): void {
   }
@@ -19,20 +19,20 @@ export class AuthComponent implements OnInit {
     password:new FormControl('',[Validators.required, Validators.minLength(8)]),
     confirmPassword:new FormControl('',[Validators.required, Validators.minLength(8)]),
   })
-  loginUser(){
-    console.log(this.RegisterForm.value);
-    this.auth.login();
-  }
-
+  
   LoginForm:any=new FormGroup({
     email:new FormControl('',[Validators.required, Validators.email, Validators.pattern('^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$')]),
     password:new FormControl('',[Validators.required, Validators.minLength(8)]),
   })
+  loginUser(){
+    console.log(this.LoginForm.value);
+    this.authService.login();
+  }
   registerUser(){
-    // var user=this.createUser(this.RegisterForm.value);
-    // this.userService.registerUser(user).subscribe((res:any)=>{
-    //   console.log(res);
-    // })
+    // this.authService.login();
+  }
+  logout(){
+    this.authService.logout();
   }
 
   get email(){

@@ -1,37 +1,64 @@
 import { Injectable } from '@angular/core';
-import { Log, User, UserManager, WebStorageStateStore } from 'oidc-client';
+import { Subject } from 'rxjs';
+import { UserManager, User, UserManagerSettings } from 'oidc-client';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
+  private _userManager: UserManager;
+  private _user: User | null ;
+  private _loginChangedSubject = new Subject<boolean>();
+  public loginChanged = this._loginChangedSubject.asObservable();
 
-  public userManager: UserManager;
-  constructor() { 
-    const settings = {
-      // authority: 'https://localhost:5001/',
-      // client_id: 'interactive',
-      // redirect_uri: 'http://localhost:4200/signin-callback.html',
-      // monitorSession: false,
-      // post_logout_redirect_uri: 'http://localhost:4200/users/login',
-      // response_type: 'code', // for Auth Code flow
-      // scope: 'read openid profile email',
-      // userStore: new WebStorageStateStore({ store: window.localStorage }) // set this to save user info in localStorage
-    };
-    this.userManager = new UserManager(settings);
-
-    Log.logger = console;
-    Log.level = Log.INFO;
-  }
-  public getUser(): Promise<User | null> {
-    return this.userManager.getUser();
+  private get idpSettings(): UserManagerSettings {
+    return {
+      authority: 'https://localhost:5001',
+      client_id: 'angular-client',
+      redirect_uri: 'http://localhost:4200/signin-callback',
+      scope: "openid profile EmployeeAPI.read",
+      response_type: "code",
+      post_logout_redirect_uri: 'http://localhost:4200/signout-callback'
+    }
   }
 
-  public login(): Promise<void> {
-    return this.userManager.signinRedirect();
+
+  constructor() {
+    this._userManager = new UserManager(this.idpSettings);
   }
 
-  public logout(): Promise<void> {
-    return this.userManager.signoutRedirect();
+
+  public login = () => {
+    return this._userManager.signinRedirect();
+  }
+
+  public isAuthenticated = async (): Promise<boolean> => {
+    return this._userManager.getUser()
+      .then((user: any) => {
+        if (this._user !== user) {
+        this._loginChangedSubject.next(this.checkUser(user));
+        }
+        this._user = user;
+
+        return this.checkUser(user);
+      })
+  }
+  private checkUser = (user: User): boolean => {
+    return !!user && !user.expired;
+  }
+  public finishLogin = (): Promise<User> => {
+    return this._userManager.signinRedirectCallback()
+      .then(user => {
+        this._user = user;
+        this._loginChangedSubject.next(this.checkUser(user));
+        return user;
+      })
+  }
+  public logout = () => {
+    this._user= null;
+    this._userManager.signoutRedirect();
+  }
+  public finishLogout = () => {
+    return this._userManager.signoutRedirectCallback();
   }
 }

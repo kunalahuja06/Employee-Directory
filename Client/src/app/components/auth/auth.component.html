@@ -42,7 +42,7 @@
     </div>
     <form class="login" [formGroup]="LoginForm" (ngSubmit)="loginUser()">
         <div class="form-floating mb-3">
-            <input type="email" class="form-control" name="email" placeholder="name@example.com" formControlName="Email"
+            <input type="email" class="form-control" name="email" placeholder="name@example.com" formControlName="email"
                 required>
             <label for="Email fs-1 fw-bold">Email address</label>
             <span *ngIf="email && email.invalid && email.touched" class="text-capitalize text-danger">invalid
@@ -50,7 +50,7 @@
         </div>
         <div class="form-floating mb-3">
             <input type="password" class="form-control" name="password" placeholder="Password"
-                formControlName="Password" required>
+                formControlName="password" required>
             <label for="Password fs-1 fw-bold">Password</label>
             <span *ngIf="password && password.invalid && password.touched" class="text-capitalize text-danger">invalid
                 password</span>
@@ -59,6 +59,7 @@
     </form>
     <p class="text-center text-secondary py-2">Not Registered? <a href="#" (click)="register=!register"
             class="text-decoration-none">Register</a></p>
-</ng-template>
+    <p (click)="logout()" role="button" class="text-danger text-center">logout</p>
 
+</ng-template>
 <router-outlet></router-outlet>

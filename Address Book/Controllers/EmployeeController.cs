@@ -14,6 +14,7 @@ namespace Address_Book.Controllers
             _employeeService = employeeService;
         }
         [HttpPost("add_employee")]
+        [Authorize]
         public IActionResult AddEmployee([FromBody] Employee employee)
         {
             if(employee==null)
@@ -31,6 +32,7 @@ namespace Address_Book.Controllers
         }
 
         [HttpPut("update_employee")]
+        [Authorize]
         public IActionResult UpdateEmployee([FromBody] Employee employee)
         {
             if (employee == null)
@@ -48,6 +50,7 @@ namespace Address_Book.Controllers
             }
         }
         [HttpDelete("delete_employee/{id}")]
+        [Authorize]
         public IActionResult DeleteEmployee(int id)
         {
             
@@ -59,6 +62,7 @@ namespace Address_Book.Controllers
             });
         }
         [HttpGet("employees")]
+        [Authorize]
         public IActionResult GetEmployees()
         {
             var employees =_employeeService.GetEmployees();
@@ -70,6 +74,8 @@ namespace Address_Book.Controllers
         }
 
         [HttpGet("employee/{id}")]
+        [Authorize]
+        
         public IActionResult GetEmployee(int id)
         {
             if (id == 0)
