@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { EmployeeService } from '../../services/shared/employee-service.service';
+import { EmployeeService } from '../../shared/services/employee-service.service';
 import { NgbModal, NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { ToastService } from 'src/app/shared/services/toast.service';
 
 @Component({
   selector: 'app-employee-details',
@@ -11,7 +12,7 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 })
 export class EmployeeDetailsComponent implements OnInit {
   mobileView: boolean = false;
-  constructor(private employeeService: EmployeeService, private modalService: NgbModal, private observer: BreakpointObserver, private offcanvas: NgbOffcanvas) { }
+  constructor(private employeeService: EmployeeService, private modalService: NgbModal, private observer: BreakpointObserver, private offcanvas: NgbOffcanvas,private toastService:ToastService) { }
 
   ngOnInit(): void {
     this.employeeService.editData.subscribe((employee: any) => {
@@ -84,7 +85,7 @@ export class EmployeeDetailsComponent implements OnInit {
     }
   }
   utils(message:any) {
-    alert(message)
+    this.toastService.show(message, { classname: 'bg-success text-light', delay: 2000 });
     this.modalService.dismissAll();
     this.offcanvas.dismiss();
     this.employeeService.emp()

@@ -1,8 +1,9 @@
 import { Component, Input ,OnInit, TemplateRef } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { EmployeeService } from 'src/app/services/shared/employee-service.service';
+import { EmployeeService } from 'src/app/shared/services/employee-service.service';
 import { BreakpointObserver,Breakpoints } from '@angular/cdk/layout';
 import { NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
+import { ToastService } from 'src/app/shared/services/toast.service';
 
 
 @Component({
@@ -11,7 +12,7 @@ import { NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./employee.component.css']
 })
 export class EmployeeComponent implements OnInit{
-  constructor(private modalService: NgbModal,private employeeService:EmployeeService,private observer:BreakpointObserver,private offcanvasService: NgbOffcanvas) { }
+  constructor(private modalService: NgbModal,private employeeService:EmployeeService,private observer:BreakpointObserver,private offcanvasService: NgbOffcanvas,private toastService:ToastService) { }
 
   mobileView = false;
 
@@ -51,7 +52,7 @@ export class EmployeeComponent implements OnInit{
     this.employeeService.deleteEmployee(this.employee.id).subscribe((data:any)=>data.statusCode=200?this.utils(data.message):'');
   }
   utils(message:any){
-    alert(message);
+    this.toastService.show(message, { classname: 'bg-success text-light', delay: 2000 });
     this.modalService.dismissAll();
     this.employeeService.emp();
     setTimeout(() => {

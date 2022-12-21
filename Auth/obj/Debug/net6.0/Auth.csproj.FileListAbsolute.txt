@@ -73,6 +73,7 @@ E:\Internship_Tasks\Task 6\Auth\obj\Debug\net6.0\Auth.pdb
 E:\Internship_Tasks\Task 6\Auth\obj\Debug\net6.0\Auth.genruntimeconfig.cache
 E:\Internship_Tasks\Task 6\Auth\obj\Debug\net6.0\ref\Auth.dll
 E:\Internship_Tasks\Task 6\Auth\bin\Debug\net6.0\IdentityServer4.AspNetIdentity.dll
+E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\Auth.genruntimeconfig.cache
 E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\appsettings.Development.json
 E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\appsettings.json
 E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\Auth.exe
@@ -146,5 +147,4 @@ E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\Auth.csproj.CopyComplete
 E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\Auth.dll
 E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\refint\Auth.dll
 E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\Auth.pdb
-E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\Auth.genruntimeconfig.cache
 E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\ref\Auth.dll

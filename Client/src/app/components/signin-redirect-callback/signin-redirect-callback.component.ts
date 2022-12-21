@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthService } from 'src/app/services/shared/auth-service.service';
+import { AuthService } from '../../shared/services/auth-service.service';
 
 @Component({
   selector: 'app-signin-redirect-callback',

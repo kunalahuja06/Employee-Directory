@@ -28,6 +28,7 @@
         <app-filters *ngFor="let f of filters" [filter]="f[1]" [title]="f[0]"></app-filters>
     </div>
     <div [ngClass]="{'col-lg-10':!mobileView,'d-flex':mobileView}">
+        <app-toasts class="toasts mb-5"></app-toasts> <!-- Toasts-->
         <!-- search and employees desktop-->
         <app-search-bar *ngIf="!mobileView"></app-search-bar>
         <app-employees class="employees"

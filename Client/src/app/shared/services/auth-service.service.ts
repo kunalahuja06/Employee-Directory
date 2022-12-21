@@ -18,7 +18,7 @@ export class AuthService {
       redirect_uri: 'http://localhost:4200/signin-callback',
       scope: "openid profile EmployeeAPI.read",
       response_type: "code",
-      post_logout_redirect_uri: 'http://localhost:4200/signout-callback'
+      post_logout_redirect_uri: 'http://localhost:4200/signout-callback'  
     }
   }
 

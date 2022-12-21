@@ -1,7 +1,7 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, OnInit } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { EmployeeService } from 'src/app/services/shared/employee-service.service';
+import { EmployeeService } from '../../shared/services/employee-service.service';
 
 @Component({
   selector: 'app-search-bar',

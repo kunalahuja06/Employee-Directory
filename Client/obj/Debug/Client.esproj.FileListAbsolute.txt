@@ -1,0 +1,2 @@
+E:\Internship_Tasks\Address-Book\Client\obj\Debug\Client.esproj.SuggestedBindingRedirects.cache
+E:\Internship_Tasks\Address-Book\Client\obj\Debug\Client.esproj.CoreCompileInputs.cache

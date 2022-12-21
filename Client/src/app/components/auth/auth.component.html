@@ -32,7 +32,7 @@
         </div>
         <button type="submit" class="btn btn-primary col-12" [disabled]="RegisterForm.invalid">Register</button>
     </form>
-    <p class="text-center text-secondary py-2">Already Registered? <a href="#" (click)="register=!register"
+    <p class="text-center text-secondary py-2">Already Registered? <a routerLink="/users/login" (click)="register=!register"
             class="text-decoration-none">Login</a></p>
 </ng-template>
 
@@ -57,7 +57,7 @@
         </div>
         <button type="submit" class="btn btn-primary col-12" [disabled]="LoginForm.invalid">Login</button>
     </form>
-    <p class="text-center text-secondary py-2">Not Registered? <a href="#" (click)="register=!register"
+    <p class="text-center text-secondary py-2">Not Registered? <a routerLink="/users/register" (click)="register=!register"
             class="text-decoration-none">Register</a></p>
     <p (click)="logout()" role="button" class="text-danger text-center">logout</p>
 

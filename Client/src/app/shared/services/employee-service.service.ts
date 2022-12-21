@@ -2,7 +2,6 @@ import {Injectable} from '@angular/core';
 import { map, Subject } from 'rxjs';
 import { retry, catchError } from 'rxjs/operators';
 import {HttpClient} from '@angular/common/http';
-
 @Injectable({
   providedIn: 'root'
 })
@@ -18,7 +17,7 @@ export class EmployeeService {
     this.empHome.next(employee);
   }
 
-  employees:any={};
+  employees?:any={};
    getEmployees(){
     return this.client.get<any>(`${this.url}employees`)
       .pipe(
@@ -42,7 +41,7 @@ export class EmployeeService {
       errorMessage = `Error: ${error.error.message}`;
     } else {
       // server-side error
-      errorMessage = `Unable to connect to server`;
+      errorMessage= 'Unable to connect to the server'
     }
     window.alert(errorMessage);
   }

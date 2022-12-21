@@ -1,6 +1,6 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, OnInit, Input } from '@angular/core';
-import { EmployeeService } from '../../services/shared/employee-service.service';
+import { EmployeeService } from '../../shared/services/employee-service.service';
 import { NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
 
 

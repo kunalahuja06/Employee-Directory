@@ -35,6 +35,7 @@ builder.Services.AddDbContext<AspNetIdentityDbContext>(opt =>
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<AspNetIdentityDbContext>()
     .AddDefaultTokenProviders();
+    
 
 builder.Services.AddIdentityServer()
     .AddAspNetIdentity<IdentityUser>()
@@ -47,6 +48,7 @@ builder.Services.AddIdentityServer()
         opt.ConfigureDbContext = b => b.UseSqlServer(connectionString, opt => opt.MigrationsAssembly(assembly));
     })
     .AddDeveloperSigningCredential();
+
 
 builder.Services.AddAuthorization();
 
@@ -66,6 +68,8 @@ app.UseStaticFiles();
 app.UseIdentityServer();
 
 app.UseAuthorization();
+
+app.UseHttpsRedirection();
 
 
 app.Run();

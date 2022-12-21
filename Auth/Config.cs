@@ -1,4 +1,5 @@
-﻿using IdentityServer4;
+﻿using IdentityModel;
+using IdentityServer4;
 using IdentityServer4.Models;
 
 namespace Auth
@@ -83,6 +84,32 @@ namespace Auth
                 RequireConsent = false,
                 AccessTokenLifetime = 600
             },
+            new Client
+            {
+                ClientName= "User1",
+                ClientId = "user1",
+                AllowedGrantTypes = GrantTypes.Hybrid,
+                ClientSecrets = { new Secret("1234".ToSha256()) },
+                AllowedScopes = new [] { "openid", "profile", "EmployeeAPI.read" },
+                AllowOfflineAccess = true,
+                AllowPlainTextPkce = false,
+                RedirectUris = new [] { "https://localhost:4200/signin-callback" },
+                PostLogoutRedirectUris = new [] { "http://localhost:4200/signout-callback" },
+                AllowAccessTokensViaBrowser=true,
+            },
+            new Client
+            {
+                ClientName= "User 2",
+                ClientId = "user2",
+                AllowedGrantTypes = GrantTypes.Implicit,
+                ClientSecrets = { new Secret("1234".ToSha256()) },
+                AllowedScopes = new [] { "openid", "profile", "EmployeeAPI.read" },
+                AllowOfflineAccess = true,
+                AllowPlainTextPkce = false,
+                RedirectUris = new [] { "http://localhost:4200/signin-callback" },
+                PostLogoutRedirectUris = new [] { "http://localhost:4200/signout-callback" },
+                AllowAccessTokensViaBrowser=true,
+            }
         };
     }
 }

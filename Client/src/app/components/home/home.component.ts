@@ -2,8 +2,8 @@ import { Component, OnInit,TemplateRef,ViewChild } from '@angular/core';
 import * as Filters from 'src/assets/static files/data';
 import { BreakpointObserver,Breakpoints } from '@angular/cdk/layout';
 import { NgbOffcanvas,NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { EmployeeService } from 'src/app/services/shared/employee-service.service';
-import { AuthService } from './../../services/shared/auth-service.service';
+import { EmployeeService } from '../../shared/services/employee-service.service';
+import { AuthService } from '../../shared/services/auth-service.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
 
   mobileView = false;
   collapsed = true;
-  isAuthenticated:any=false;
+  isAuthenticated:any=true;
   
   
   constructor(private modalService: NgbModal,private employeeService:EmployeeService,private observer: BreakpointObserver, private offcanvasService: NgbOffcanvas,private authService:AuthService,private router:Router) { 
