@@ -15,15 +15,10 @@ export class HomeComponent implements OnInit {
 
   mobileView = false;
   collapsed = true;
-  isAuthenticated:any=true;
+  isAuthenticated:any;
   
   
-  constructor(private modalService: NgbModal,private employeeService:EmployeeService,private observer: BreakpointObserver, private offcanvasService: NgbOffcanvas,private authService:AuthService,private router:Router) { 
-    this.authService.loginChanged
-    .subscribe(userAuthenticated => {
-      this.isAuthenticated = userAuthenticated;
-    })
-  }
+  constructor(private modalService: NgbModal,private employeeService:EmployeeService,private observer: BreakpointObserver, private offcanvasService: NgbOffcanvas,private authService:AuthService,private router:Router) { }
 
   ngOnInit(){
     this.authService.isAuthenticated()

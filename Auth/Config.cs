@@ -1,6 +1,8 @@
 ﻿using IdentityModel;
 using IdentityServer4;
 using IdentityServer4.Models;
+using IdentityServer4.Test;
+using System.Security.Claims;
 
 namespace Auth
 {
@@ -36,7 +38,6 @@ namespace Auth
                 UserClaims = new [] { "role" }
             }
         };
-
     public static IEnumerable<Client> Clients =>
         new[]
         {
@@ -46,23 +47,7 @@ namespace Auth
                 ClientName = "Client Credentials Client",
                 AllowedGrantTypes = GrantTypes.ClientCredentials,
                 ClientSecrets = { new Secret("ClientSecret".Sha256()) },
-                AllowedScopes = new [] { "EmployeeAPI.read", "EmployeeAPI.write" }
-
-            },
-            new Client
-            {
-                ClientId = "interactive",
-                ClientName = "Interactive Client",
-                ClientSecrets={new Secret("secret1".Sha256())},
-                AllowedGrantTypes = GrantTypes.Code,
-                RequirePkce = true,
-                RequireConsent = true,
-                RedirectUris = new [] { "https://localhost:6001/employees" },
-                FrontChannelLogoutUri = "https://localhost:6001/employees",
-                PostLogoutRedirectUris = new [] { "https://localhost:4200" },
-                AllowedScopes = new [] { "openid", "profile", "EmployeeAPI.read" },
-                AllowOfflineAccess = true,
-                AllowPlainTextPkce = false,
+                AllowedScopes = new [] { "EmployeeAPI.read", "EmployeeAPI.write" },
             },
             new Client
             {
@@ -76,39 +61,15 @@ namespace Auth
                 {
                     IdentityServerConstants.StandardScopes.OpenId,
                     IdentityServerConstants.StandardScopes.Profile,
-                    "EmployeeAPI.read"
+                    "EmployeeAPI.read",
+                    "EmployeeAPI.write",
+                    "roles"
                 },
                 AllowedCorsOrigins = { "http://localhost:4200" },
                 RequireClientSecret = false,
                 PostLogoutRedirectUris = new List<string> { "http://localhost:4200/signout-callback" },
                 RequireConsent = false,
-                AccessTokenLifetime = 600
-            },
-            new Client
-            {
-                ClientName= "User1",
-                ClientId = "user1",
-                AllowedGrantTypes = GrantTypes.Hybrid,
-                ClientSecrets = { new Secret("1234".ToSha256()) },
-                AllowedScopes = new [] { "openid", "profile", "EmployeeAPI.read" },
-                AllowOfflineAccess = true,
-                AllowPlainTextPkce = false,
-                RedirectUris = new [] { "https://localhost:4200/signin-callback" },
-                PostLogoutRedirectUris = new [] { "http://localhost:4200/signout-callback" },
-                AllowAccessTokensViaBrowser=true,
-            },
-            new Client
-            {
-                ClientName= "User 2",
-                ClientId = "user2",
-                AllowedGrantTypes = GrantTypes.Implicit,
-                ClientSecrets = { new Secret("1234".ToSha256()) },
-                AllowedScopes = new [] { "openid", "profile", "EmployeeAPI.read" },
-                AllowOfflineAccess = true,
-                AllowPlainTextPkce = false,
-                RedirectUris = new [] { "http://localhost:4200/signin-callback" },
-                PostLogoutRedirectUris = new [] { "http://localhost:4200/signout-callback" },
-                AllowAccessTokensViaBrowser=true,
+                AccessTokenLifetime = 3600
             }
         };
     }

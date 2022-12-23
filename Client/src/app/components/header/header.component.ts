@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BreakpointObserver,Breakpoints } from '@angular/cdk/layout';
+import { AuthService } from 'src/app/shared/services/auth-service.service';
+import { User } from 'oidc-client';
 
 @Component({
   selector: 'app-header',
@@ -8,10 +10,11 @@ import { BreakpointObserver,Breakpoints } from '@angular/cdk/layout';
 })
 export class HeaderComponent implements OnInit {
   mobileView = false;
-
-  constructor(private observer: BreakpointObserver) { }
+  user:any;
+  constructor(private observer: BreakpointObserver,private authService:AuthService) { }
 
    ngOnInit(){
+    this.authService.getUser().then((user:any)=>{this.user=user;this.name=user.profile.given_name});
     this.observer.observe([
       Breakpoints.Small,
       Breakpoints.HandsetPortrait
@@ -25,6 +28,6 @@ export class HeaderComponent implements OnInit {
     });
   }
 
-  public name="andrew philips"
+  name:string=''
 
 }

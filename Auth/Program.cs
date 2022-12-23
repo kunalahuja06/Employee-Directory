@@ -3,42 +3,25 @@ using Auth.Data;
 using Microsoft.AspNetCore.CookiePolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
-var seed = args.Contains("/seed");
-if (seed)
-{
-    args = args.Except(new[] { "/seed" }).ToArray();
-}
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var assembly = typeof(Program).Assembly.GetName().Name;
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnectionString");
 
-if(seed)
-{
-    SeedData.EnsureSeedData(connectionString);
-}
-
-builder.Services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
-{
-    builder.AllowAnyOrigin()
-    .AllowAnyMethod()
-    .AllowAnyHeader();
-}));
-
 builder.Services.AddDbContext<AspNetIdentityDbContext>(opt =>
 {
     opt.UseSqlServer(connectionString, opt => opt.MigrationsAssembly(assembly));
 });
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<AspNetIdentityDbContext>()
     .AddDefaultTokenProviders();
     
 
 builder.Services.AddIdentityServer()
-    .AddAspNetIdentity<IdentityUser>()
+    .AddAspNetIdentity<ApplicationUser>()
     .AddConfigurationStore(opt =>
     {
         opt.ConfigureDbContext = b => b.UseSqlServer(connectionString, opt => opt.MigrationsAssembly(assembly));
@@ -52,7 +35,10 @@ builder.Services.AddIdentityServer()
 
 builder.Services.AddAuthorization();
 
+builder.Services.AddControllersWithViews();
+
 var app = builder.Build();
+
 app.UseCookiePolicy(new CookiePolicyOptions
 {
     HttpOnly = HttpOnlyPolicy.None,
@@ -60,16 +46,26 @@ app.UseCookiePolicy(new CookiePolicyOptions
     Secure = CookieSecurePolicy.Always
 });
 if (app.Environment.IsDevelopment()){
-    app.UseCors("CorsPolicy");
+    app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 }
 
 app.UseStaticFiles();
 
 app.UseIdentityServer();
 
+app.UseStaticFiles();
+
+app.UseRouting();
+
 app.UseAuthorization();
 
-app.UseHttpsRedirection();
+app.UseEndpoints(endpoints =>
+{
+	endpoints.MapControllerRoute(
+		name: "default",
+		pattern: "{controller=Home}/{action=Index}/{id?}");
+});
 
+//app.MigrateDatabase();
 
 app.Run();

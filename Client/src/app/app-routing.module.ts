@@ -10,9 +10,8 @@ import { AuthGuard } from './shared/guards/auth.guard';
 
 @NgModule({
   imports: [RouterModule.forRoot([
-    {path:'',component:HomeComponent},
-    {path:'users/login',component:AuthComponent, data: { register: false }},
-    {path:'users/register',component:AuthComponent, data: { register: true }},
+    {path:'',component:HomeComponent,canActivate:[AuthGuard]},
+    {path:'auth',component:AuthComponent},
     { path: 'signin-callback', component: SigninRedirectCallbackComponent },
     { path: 'signout-callback', component: SignoutRedirectCallbackComponent },
   ])],

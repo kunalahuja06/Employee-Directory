@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 import { UserManager, User, UserManagerSettings } from 'oidc-client';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
   private _userManager: UserManager;
-  private _user: User | null ;
+  private _user: User | null;
   private _loginChangedSubject = new Subject<boolean>();
   public loginChanged = this._loginChangedSubject.asObservable();
 
@@ -18,12 +19,11 @@ export class AuthService {
       redirect_uri: 'http://localhost:4200/signin-callback',
       scope: "openid profile EmployeeAPI.read",
       response_type: "code",
-      post_logout_redirect_uri: 'http://localhost:4200/signout-callback'  
+      post_logout_redirect_uri: 'http://localhost:4200/signout-callback',
     }
   }
 
-
-  constructor() {
+  constructor(private router:Router) {
     this._userManager = new UserManager(this.idpSettings);
   }
 
@@ -36,7 +36,7 @@ export class AuthService {
     return this._userManager.getUser()
       .then((user: any) => {
         if (this._user !== user) {
-        this._loginChangedSubject.next(this.checkUser(user));
+          this._loginChangedSubject.next(this.checkUser(user));
         }
         this._user = user;
 
@@ -54,11 +54,24 @@ export class AuthService {
         return user;
       })
   }
+ 
   public logout = () => {
-    this._user= null;
+    this._user = null;
     this._userManager.signoutRedirect();
   }
   public finishLogout = () => {
     return this._userManager.signoutRedirectCallback();
   }
+  public getAccessToken = (): Promise<string> => {
+    return this._userManager.getUser()
+      .then((user: any) => {
+        return !!user && !user.expired ? user.access_token : null;
+      })
+  }
+  public getUser = (): Promise<User> => {
+    return this._userManager.getUser()
+      .then((user: any) => {
+        return !!user && !user.expired ? user : null;
+      })
+  } 
 }

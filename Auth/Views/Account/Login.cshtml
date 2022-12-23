@@ -1,0 +1,28 @@
+@model Auth.Models.LoginViewModel
+
+<style>
+    .login-page {
+        background-color: white;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+</style>
+<div class="login-page p-4">
+    <div class="page-header">
+        <h2 class="text-center">Register</h2>
+    </div>
+
+    <partial name="_ValidationSummary" />
+    <form asp-route="Register">
+        <div class="form-floating mb-3">
+            <label asp-for="Email"></label>
+            <input type="email" class="form-control" placeholder="Enter your email address" asp-for="Email" autofocus required>
+        </div>
+        <div class="form-floating mb-3">
+            <label asp-for="Password"></label>
+            <input type="password" class="form-control" placeholder="Enter a password" asp-for="Password" autocomplete="off">
+        </div>
+        <button class="btn btn-primary col-12 my-2" name="button" value="register">Login</button>
+    </form>
+    <p class="text-center text-secondary py-2">Not Registered? <a href="Register" class="text-decoration-none">Register</a></p>
+</div>

@@ -2,6 +2,14 @@
     border: 1px solid rgba(1,1,1,0.2);
     box-sizing: content-box;
     height:50vh;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width:1px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:rgba(0,176,253,255);
 }
 .add-employee{
     background-color: rgba(0,176,253,255);

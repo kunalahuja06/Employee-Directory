@@ -148,3 +148,11 @@ E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\Auth.dll
 E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\refint\Auth.dll
 E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\Auth.pdb
 E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\ref\Auth.dll
+E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\Auth.staticwebassets.runtime.json
+E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\Auth.RazorAssemblyInfo.cache
+E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\Auth.RazorAssemblyInfo.cs

@@ -23,6 +23,7 @@
     "@angular/router": "^14.0.0",
     "@ng-bootstrap/ng-bootstrap": "^13.0.0",
     "@popperjs/core": "^2.10.2",
+    "angular-auth-oidc-client": "^15.0.2",
     "bootstrap": "^5.2.0",
     "oidc-client": "^1.11.5",
     "rxjs": "~7.5.0",
