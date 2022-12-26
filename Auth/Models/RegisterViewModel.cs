@@ -4,7 +4,11 @@ namespace Auth.Models
 {
     public class RegisterViewModel
     {
-        [Required]
+		[Required]
+		[Display(Name = "UserName")]
+		public string UserName { get; set; }
+		
+		[Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }

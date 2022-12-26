@@ -50,33 +50,42 @@
 
                 if (ModelState.IsValid)
                 {
-                    var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberLogin, lockoutOnFailure: true);
-
-                    if (result.Succeeded)
+                    var user = await _userManager.FindByEmailAsync(model.Email);
+					if(user!=null)
                     {
-                        if (context != null)
-                        {
-                            // we can trust model.ReturnUrl since GetAuthorizationContextAsync returned non-null
-                            return Redirect(model.ReturnUrl);
-                        }
+						var result = await _signInManager.PasswordSignInAsync(user.UserName, model.Password, model.RememberLogin, lockoutOnFailure: true);
+						if (result.Succeeded)
+						{
+							if (context != null)
+							{
+								// we can trust model.ReturnUrl since GetAuthorizationContextAsync returned non-null
+								return Redirect(model.ReturnUrl);
+							}
 
-                        // request for a local page
-                        if (Url.IsLocalUrl(model.ReturnUrl))
-                        {
-                            return Redirect(model.ReturnUrl);
-                        }
-                        else if (string.IsNullOrEmpty(model.ReturnUrl))
-                        {
-                            return Redirect("~/");
-                        }
-                        else
-                        {
-                            // user might have clicked on a malicious link - should be logged
-                            throw new Exception("invalid return URL");
-                        }
-                    }
-
-                    ModelState.AddModelError(string.Empty, "Invalid credentials");
+							// request for a local page
+							if (Url.IsLocalUrl(model.ReturnUrl))
+							{
+								return Redirect(model.ReturnUrl);
+							}
+							else if (string.IsNullOrEmpty(model.ReturnUrl))
+							{
+								return Redirect("~/");
+							}
+							else
+							{
+								// user might have clicked on a malicious link - should be logged
+								throw new Exception("invalid return URL");
+							}
+						}
+						else
+						{
+							ModelState.AddModelError(string.Empty, "Invalid credentials");
+						}
+					}
+                    else
+                    {
+						ModelState.AddModelError(string.Empty, "Invalid credentials");
+					}
                 }
 
                 return View(model);
@@ -107,8 +116,8 @@
             {
                 var user = new ApplicationUser
                 {
-                    UserName = model.Email,
-                    Email = model.Email,
+					UserName = model.UserName,
+					Email = model.Email,
                     EmailConfirmed = true,
                 };
 
@@ -120,8 +129,10 @@
                 }
 
                 result = await _userManager.AddClaimsAsync(user, new Claim[]{
-                            new Claim(JwtClaimTypes.Email, model.Email)
-                        });
+                            new Claim(JwtClaimTypes.Email, model.Email),
+							new Claim(JwtClaimTypes.PreferredUserName, model.UserName),
+							new Claim(JwtClaimTypes.Role,"user"),
+						});
 
                 if (!result.Succeeded)
                 {

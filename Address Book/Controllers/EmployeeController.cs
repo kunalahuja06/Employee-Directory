@@ -14,7 +14,7 @@ namespace Address_Book.Controllers
             _employeeService = employeeService;
         }
         [HttpPost("add_employee")]
-        [Authorize]
+        [Authorize(Roles ="Admin")]
         public IActionResult AddEmployee([FromBody] Employee employee)
         {
             if(employee==null)
@@ -50,8 +50,8 @@ namespace Address_Book.Controllers
             }
         }
         [HttpDelete("delete_employee/{id}")]
-        [Authorize]
-        public IActionResult DeleteEmployee(int id)
+		[Authorize(Roles = "Admin")]
+		public IActionResult DeleteEmployee(int id)
         {
             
             _employeeService.DeleteEmployee(id);

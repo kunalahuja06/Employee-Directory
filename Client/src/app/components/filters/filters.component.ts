@@ -11,7 +11,7 @@ import { NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
 })
 export class FiltersComponent implements OnInit {
   mobileView: boolean=false;
-  constructor(private employeeService: EmployeeService,private observer:BreakpointObserver,private offcanvas:NgbOffcanvas) { }
+  constructor(private employeeService: EmployeeService,private observer:BreakpointObserver,private offcanvas:NgbOffcanvas) {}
 
   ngOnInit(){
     this.observer.observe([
@@ -25,13 +25,16 @@ export class FiltersComponent implements OnInit {
         this.mobileView = false;
       }
     });
+    
   }
 
   ngAfterViewInit(): void {
     this.toggleJobTitles(document.querySelectorAll('.filter-ul')[2])
     let filters=document.querySelectorAll('.filter-li')
     filters.forEach((filter:any)=>{
-      filter.children[1].textContent=`(${this.employeeService.getCount(filter.children[0].textContent)})`
+      setInterval(()=>{
+        filter.children[1].textContent=`(${this.employeeService.getCount(filter.children[0].textContent)})`
+      },1000)
     })
   }
 

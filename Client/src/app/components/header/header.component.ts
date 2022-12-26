@@ -11,10 +11,11 @@ import { User } from 'oidc-client';
 export class HeaderComponent implements OnInit {
   mobileView = false;
   user:any;
+  isCollapsed=true;
   constructor(private observer: BreakpointObserver,private authService:AuthService) { }
 
    ngOnInit(){
-    this.authService.getUser().then((user:any)=>{this.user=user;this.name=user.profile.given_name});
+    this.authService.getUser().then((user:any)=>{this.user=user;this.name=user.profile.preferred_username});
     this.observer.observe([
       Breakpoints.Small,
       Breakpoints.HandsetPortrait
@@ -29,5 +30,7 @@ export class HeaderComponent implements OnInit {
   }
 
   name:string=''
-
+  logout(){
+    this.authService.logout();
+  }
 }

@@ -5,7 +5,13 @@
         <p class="header-para text-capitalize">the ultimate people directory experience</p>
     </div>
     <div class="user col-5 d-flex justify-content-end align-items-end p-0">
-        <h3 class="user-text text-capitalize fw-light px-2 fs-4 m-0" [class.bn]="mobileView"><span class="welcome text-info">welcome, </span>{{name}}</h3>
-        <img src="./../../../assets/images/user-logo.png" alt="user logo" class="user-logo">
+        <h3 class="user-text text-capitalize fw-light px-2 fs-4 m-0" [class.bn]="mobileView"><span
+                class="welcome text-info">welcome, </span>{{name}}</h3>
+        <div ngbDropdown >
+            <img src="./../../../assets/images/user-logo.png" alt="user logo" class="user-logo" id="dropdownBasic1" ngbDropdownToggle>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown-menu dropdown-menu-end bg-danger mt-2">
+                <button ngbDropdownItem class="btn btn-danger text-end text-white fw-bold" (click)="logout()">Logout</button>
+            </div>  
+        </div>
     </div>
 </nav>

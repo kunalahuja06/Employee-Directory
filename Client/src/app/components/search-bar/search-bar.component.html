@@ -24,7 +24,7 @@
         <option value="skypeID" class="text-capitalize">skype id</option>
     </select>
     <a href="#" class="add-employee text-capitalize ms-auto text-decoration-none text-white my-auto px-2 py-1 fw-bold"
-        (click)="openVerticallyCentered(addEmployee)" *ngIf="!mobileView">add employee</a>
+        (click)="openVerticallyCentered(addEmployee)" *ngIf="!mobileView && (isUserAuthenticated && isUserAdmin)">add employee</a>
 </div>
 <p class="note" *ngIf="!mobileView"><b>Note:</b> Please use the advanced filter options to refine your results.</p>
 

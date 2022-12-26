@@ -51,8 +51,8 @@ namespace Auth
             },
             new Client
             {
-                ClientName = "Angular-Client",
-                ClientId = "angular-client",
+                ClientName = "AddressBook-User",
+                ClientId = "AddressBook_User",
                 AllowedGrantTypes = GrantTypes.Code,
                 RedirectUris = new List<string>{ "http://localhost:4200/signin-callback", "http://localhost:4200/assets/silent-callback.html" },
                 RequirePkce = true,

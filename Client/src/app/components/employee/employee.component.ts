@@ -4,6 +4,7 @@ import { EmployeeService } from 'src/app/shared/services/employee-service.servic
 import { BreakpointObserver,Breakpoints } from '@angular/cdk/layout';
 import { NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
 import { ToastService } from 'src/app/shared/services/toast.service';
+import { AuthService } from 'src/app/shared/services/auth-service.service';
 
 
 @Component({
@@ -12,11 +13,15 @@ import { ToastService } from 'src/app/shared/services/toast.service';
   styleUrls: ['./employee.component.css']
 })
 export class EmployeeComponent implements OnInit{
-  constructor(private modalService: NgbModal,private employeeService:EmployeeService,private observer:BreakpointObserver,private offcanvasService: NgbOffcanvas,private toastService:ToastService) { }
+  isUserAuthenticated: any;
+  isUserAdmin: any;
+  constructor(private modalService: NgbModal,private employeeService:EmployeeService,private observer:BreakpointObserver,private offcanvasService: NgbOffcanvas,private toastService:ToastService,private authService:AuthService) { }
 
   mobileView = false;
 
   ngOnInit(){
+    this.isUserAdmin = this.isAdmin();
+    this.isUserAuthenticated = this.isAuthenticated();
     this.observer.observe([
       Breakpoints.Small,
       Breakpoints.HandsetPortrait
@@ -58,5 +63,17 @@ export class EmployeeComponent implements OnInit{
     setTimeout(() => {
       this.employeeService.updateFilterCount();
     },1000);
+  }
+  public isAdmin = () => {
+    return this.authService.checkIfUserIsAdmin()
+      .then(res => {
+        this.isUserAdmin = res;
+      })
+  }
+  public isAuthenticated = () => {
+    return this.authService.isAuthenticated()
+      .then(res => {
+        this.isUserAuthenticated = res;
+      })
   }
 }

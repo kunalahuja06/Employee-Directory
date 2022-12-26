@@ -17,7 +17,7 @@ export class EmployeeService {
     this.empHome.next(employee);
   }
 
-  employees?:any={};
+  employees:any=[];
    getEmployees(){
     return this.client.get<any>(`${this.url}employees`)
       .pipe(

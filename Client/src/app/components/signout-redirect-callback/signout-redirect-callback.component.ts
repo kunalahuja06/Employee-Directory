@@ -4,7 +4,7 @@ import { AuthService } from '../../shared/services/auth-service.service';
 
 @Component({
   selector: 'app-signout-redirect-callback',
-  template: `<div>Hey</div>`
+  template: `<div></div>`
 })
 export class SignoutRedirectCallbackComponent implements OnInit {
 
@@ -13,7 +13,7 @@ export class SignoutRedirectCallbackComponent implements OnInit {
   ngOnInit(): void {
     this._authService.finishLogout()
     .then(_ => {
-      this._router.navigate(['users/login'], { replaceUrl: true });
+      this._router.navigate(['auth'], { replaceUrl: true });
     })     
   }
 

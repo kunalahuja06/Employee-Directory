@@ -15,16 +15,21 @@ export class AuthService {
   private get idpSettings(): UserManagerSettings {
     return {
       authority: 'https://localhost:5001',
-      client_id: 'angular-client',
+      client_id: 'AddressBook_User',
       redirect_uri: 'http://localhost:4200/signin-callback',
-      scope: "openid profile EmployeeAPI.read",
+      scope: "openid profile EmployeeAPI.read EmployeeAPI.write roles",
       response_type: "code",
       post_logout_redirect_uri: 'http://localhost:4200/signout-callback',
+      automaticSilentRenew: true,
+      silent_redirect_uri: `http://localhost:4200/assets/silent-callback.html`
     }
   }
 
-  constructor(private router:Router) {
+  constructor(private router: Router) {
     this._userManager = new UserManager(this.idpSettings);
+    this._userManager.events.addAccessTokenExpired(_ => {
+    this._loginChangedSubject.next(false);
+    });
   }
 
 
@@ -39,13 +44,13 @@ export class AuthService {
           this._loginChangedSubject.next(this.checkUser(user));
         }
         this._user = user;
-
         return this.checkUser(user);
       })
   }
   private checkUser = (user: User): boolean => {
     return !!user && !user.expired;
   }
+
   public finishLogin = (): Promise<User> => {
     return this._userManager.signinRedirectCallback()
       .then(user => {
@@ -54,12 +59,13 @@ export class AuthService {
         return user;
       })
   }
- 
+
   public logout = () => {
-    this._user = null;
     this._userManager.signoutRedirect();
   }
   public finishLogout = () => {
+    this._user = null;
+    this._loginChangedSubject.next(false);
     return this._userManager.signoutRedirectCallback();
   }
   public getAccessToken = (): Promise<string> => {
@@ -73,5 +79,11 @@ export class AuthService {
       .then((user: any) => {
         return !!user && !user.expired ? user : null;
       })
-  } 
+  }
+  public checkIfUserIsAdmin = (): Promise<boolean> => {
+    return this._userManager.getUser()
+      .then(user => {
+        return user?.profile['role'] == 'Admin';
+      })
+  }
 }

@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
       this.isAuthenticated = userAuthenticated;
     })
     if(!this.isAuthenticated){
-      this.router.navigate(['/users/login']);
+      // this.router.navigate(['auth']);
     }
     this.employees=this.employeeService.employees;
     this.createAlphabetArray();

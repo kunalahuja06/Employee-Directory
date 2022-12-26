@@ -24,7 +24,4 @@ export class AuthComponent implements OnInit {
     this.authService.login();
   }
   register:string='https://localhost:5001/Account/register';
-  // register(){
-  //   this.authService.register();
-  // }
 }
