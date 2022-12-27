@@ -2,7 +2,6 @@ using EmpService.Data;
 using Microsoft.EntityFrameworkCore;
 using EmpService.Contracts;
 using EmpService;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);

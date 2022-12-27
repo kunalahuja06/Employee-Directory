@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
+
   private _userManager: UserManager;
   private _user: User | null;
   private _loginChangedSubject = new Subject<boolean>();
@@ -21,7 +22,7 @@ export class AuthService {
       response_type: "code",
       post_logout_redirect_uri: 'http://localhost:4200/signout-callback',
       automaticSilentRenew: true,
-      silent_redirect_uri: `http://localhost:4200/assets/silent-callback.html`
+      silent_redirect_uri: 'http://localhost:4200/assets/silent-callback.html'
     }
   }
 
@@ -63,27 +64,31 @@ export class AuthService {
   public logout = () => {
     this._userManager.signoutRedirect();
   }
+
   public finishLogout = () => {
     this._user = null;
     this._loginChangedSubject.next(false);
     return this._userManager.signoutRedirectCallback();
   }
+
   public getAccessToken = (): Promise<string> => {
     return this._userManager.getUser()
       .then((user: any) => {
         return !!user && !user.expired ? user.access_token : null;
       })
   }
+
   public getUser = (): Promise<User> => {
     return this._userManager.getUser()
       .then((user: any) => {
         return !!user && !user.expired ? user : null;
       })
   }
+  
   public checkIfUserIsAdmin = (): Promise<boolean> => {
     return this._userManager.getUser()
       .then(user => {
         return user?.profile['role'] == 'Admin';
       })
-  }
+  }   
 }

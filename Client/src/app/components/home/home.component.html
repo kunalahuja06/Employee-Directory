@@ -59,14 +59,15 @@
         <div class="d-flex pb-4">
             <div class="col-9">
                 <p class="text-capitalize text-primary text-darker mb-0">welcome,</p>
-                <p class="text-capitalize text-darker mb-0">andrew philips</p>
+                <p class="text-capitalize text-darker mb-0">{{userName}}</p>
             </div>
             <div class="col-3 d-flex align-items-center justify-content-end">
                 <img src="./../../../assets/images/user-logo.png" alt="user logo" class="user-logo">
             </div>
         </div>
         <app-filters *ngFor="let f of filters" [filter]="f[1]" [title]="f[0]"></app-filters>
-        <div class="mt-5 pt-3 px-3">
+        <p class="text-center p-2 text-white fw-bold bg-danger" (click)="logout()">Logout</p>
+        <div class="mt-3 pt-2 px-3">
             <a href="/" class=""><img src="./../../../assets/images/logo.png" alt="logo" class="logo p-0 mb-3"></a>
             <p class="title text-capitalize text-info fw-normal m-0">employee directory</p>
         </div>
@@ -76,7 +77,7 @@
 
 <ng-template #addEmployee let-offcanvas> <!--sidenav add employee mobile UI -->
     <div class="offcanvas-header">
-        <h4 class="offcanvas-title" id="offcanvas-basic-title">Add Employee</h4>
+        <h4 class="offcanvas-title" id="offcanvas-basic-title" *ngIf="isUserAuthenticated && isUserAdmin">Add Employee</h4>
         <button type="button" class="btn-close" aria-label="Close" (click)="offcanvas.dismiss('Cross click')"></button>
     </div>
     <div class="offcanvas-body">

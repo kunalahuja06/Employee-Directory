@@ -12,9 +12,9 @@
 <body>
     <script>
         const idpSettings = {
-            authority: "https://localhost:5005",
-            clientId: "angular-client",
-            scope: "openid profile companyApi",
+            authority: "https://localhost:5001",
+            clientId: "AddressBook_User",
+            scope: "openid profile EmployeeAPI.read EmployeeAPI.write roles",
             response_type: "code"
         };
         new Oidc.UserManager(idpSettings).signinSilentCallback()

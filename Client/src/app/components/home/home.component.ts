@@ -15,19 +15,17 @@ export class HomeComponent implements OnInit {
 
   mobileView = false;
   collapsed = true;
-  isAuthenticated:any;
+  userName:any;
+  isUserAuthenticated: any;
+  isUserAdmin: any;
   
   
   constructor(private modalService: NgbModal,private employeeService:EmployeeService,private observer: BreakpointObserver, private offcanvasService: NgbOffcanvas,private authService:AuthService,private router:Router) { }
 
   ngOnInit(){
-    this.authService.isAuthenticated()
-    .then(userAuthenticated => {
-      this.isAuthenticated = userAuthenticated;
-    })
-    if(!this.isAuthenticated){
-      // this.router.navigate(['auth']);
-    }
+    this.isUserAdmin = this.isAdmin();
+    this.isUserAuthenticated = this.isAuthenticated();
+    this.authService.getUser().then((user:any)=>{this.userName=user.profile.preferred_username});
     this.employees=this.employeeService.employees;
     this.createAlphabetArray();
     this.employeeService.searchFilter.subscribe((filter:any)=>{this.searchFilterInput=filter})
@@ -83,4 +81,19 @@ export class HomeComponent implements OnInit {
   //
 
   employees:any;
+  public isAdmin = () => {
+    return this.authService.checkIfUserIsAdmin()
+      .then(res => {
+        this.isUserAdmin = res;
+      })
+  }
+  public isAuthenticated = () => {
+    return this.authService.isAuthenticated()
+      .then(res => {
+        this.isUserAuthenticated = res;
+      })
+  }
+  public logout(){
+    this.authService.logout();
+  }
 }

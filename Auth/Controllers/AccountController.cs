@@ -138,7 +138,6 @@
                 {
                     throw new Exception(result.Errors.First().Description);
                 }
-
                 return View("RegistrationSuccess");
             }
         }
