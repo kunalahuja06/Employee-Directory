@@ -18,7 +18,7 @@ export class AuthService {
       authority: 'https://localhost:5001',
       client_id: 'AddressBook_User',
       redirect_uri: 'http://localhost:4200/signin-callback',
-      scope: "openid profile EmployeeAPI.read EmployeeAPI.write roles",
+      scope: "openid profile EmployeeAPI.read EmployeeAPI.write roles email",
       response_type: "code",
       post_logout_redirect_uri: 'http://localhost:4200/signout-callback',
       automaticSilentRenew: true,
@@ -81,6 +81,7 @@ export class AuthService {
   public getUser = (): Promise<User> => {
     return this._userManager.getUser()
       .then((user: any) => {
+        console.log(user);
         return !!user && !user.expired ? user : null;
       })
   }
@@ -90,5 +91,12 @@ export class AuthService {
       .then(user => {
         return user?.profile['role'] == 'Admin';
       })
-  }   
+  }
+  public getEmail = (): Promise<string | undefined> => {
+    return this._userManager.getUser()
+      .then(user => {
+        return user?.profile['email'];
+      })
+  }
+
 }

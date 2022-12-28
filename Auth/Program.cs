@@ -66,6 +66,6 @@ app.UseEndpoints(endpoints =>
 		pattern: "{controller=Home}/{action=Index}/{id?}");
 });
 
-//app.MigrateDatabase();
+app.MigrateDatabase();
 
 app.Run();

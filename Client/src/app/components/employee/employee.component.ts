@@ -15,6 +15,7 @@ import { AuthService } from 'src/app/shared/services/auth-service.service';
 export class EmployeeComponent implements OnInit{
   isUserAuthenticated: any;
   isUserAdmin: any;
+  userCanEdit:any=false;
   constructor(private modalService: NgbModal,private employeeService:EmployeeService,private observer:BreakpointObserver,private offcanvasService: NgbOffcanvas,private toastService:ToastService,private authService:AuthService) { }
 
   mobileView = false;
@@ -39,6 +40,7 @@ export class EmployeeComponent implements OnInit{
 
   openVerticallyCentered(content: any) {
   this.employeeService.employeeFormTitle="edit employee"
+  this.userCanEdit=this.CanEdit();
   this.modalService.open(content, { centered: true });
   }
 
@@ -74,6 +76,14 @@ export class EmployeeComponent implements OnInit{
     return this.authService.isAuthenticated()
       .then(res => {
         this.isUserAuthenticated = res;
+      })
+  }
+  public CanEdit = () => {
+    this.authService.getEmail()
+      .then(res => {
+        if(res==this.employee.email){
+          this.userCanEdit=true;
+        }
       })
   }
 }

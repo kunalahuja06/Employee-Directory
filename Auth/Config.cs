@@ -61,10 +61,12 @@ namespace Auth
                 {
                     IdentityServerConstants.StandardScopes.OpenId,
                     IdentityServerConstants.StandardScopes.Profile,
+                    IdentityServerConstants.StandardScopes.Email,
                     "EmployeeAPI.read",
                     "EmployeeAPI.write",
                     "roles"
                 },
+                AllowOfflineAccess= true,
                 AllowedCorsOrigins = { "http://localhost:4200" },
                 RequireClientSecret = false,
                 PostLogoutRedirectUris = new List<string> { "http://localhost:4200/signout-callback" },
