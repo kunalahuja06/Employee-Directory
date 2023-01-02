@@ -32,6 +32,13 @@ builder.Services.AddIdentityServer()
     })
     .AddDeveloperSigningCredential();
 
+builder.Services.AddAuthentication()
+    .AddFacebook(facebookOptions =>
+    {
+        facebookOptions.AppId = "1592394194569892";
+        facebookOptions.AppSecret = "631ffbc030175ae3e5d22192cc4e3aed";
+    });
+
 
 builder.Services.AddAuthorization();
 
@@ -66,6 +73,6 @@ app.UseEndpoints(endpoints =>
 		pattern: "{controller=Home}/{action=Index}/{id?}");
 });
 
-app.MigrateDatabase();
+//app.MigrateDatabase();
 
 app.Run();

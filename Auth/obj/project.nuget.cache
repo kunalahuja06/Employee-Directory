@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gHLH4bMKXHMEiULkYTywD3PfTdUdsQlPwrZLGvr6LB+8auIuTP1sfEtSoKyaHyK7qA3lRoWB7SNO302lKVLFgQ==",
+  "dgSpecHash": "xk3LubBeN3ADkwS0rEIt0MRh3k7CT49PpurFD5cmfQ1cVq99b625x7V7dcBywkSp9f+DMqZ/3xXPAfB8dPI9hA==",
   "success": true,
   "projectFilePath": "E:\\Internship_Tasks\\Address-Book\\Auth\\Auth.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\krins\\.nuget\\packages\\identityserver4.entityframework\\4.1.2\\identityserver4.entityframework.4.1.2.nupkg.sha512",
     "C:\\Users\\krins\\.nuget\\packages\\identityserver4.entityframework.storage\\4.1.2\\identityserver4.entityframework.storage.4.1.2.nupkg.sha512",
     "C:\\Users\\krins\\.nuget\\packages\\identityserver4.storage\\4.1.2\\identityserver4.storage.4.1.2.nupkg.sha512",
+    "C:\\Users\\krins\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\6.0.9\\microsoft.aspnetcore.authentication.facebook.6.0.9.nupkg.sha512",
     "C:\\Users\\krins\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.9\\microsoft.aspnetcore.authentication.openidconnect.6.0.9.nupkg.sha512",
     "C:\\Users\\krins\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.9\\microsoft.aspnetcore.authorization.6.0.9.nupkg.sha512",
     "C:\\Users\\krins\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.9\\microsoft.aspnetcore.components.6.0.9.nupkg.sha512",

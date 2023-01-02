@@ -1,0 +1,19 @@
+﻿@model Auth.Models.ExternalRegisterViewModel
+
+<style>
+    .external-login {
+        background-color: white;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+</style>
+<div class="external-login p-4">
+    <partial name="_ValidationSummary" />
+    <form asp-controller="Account" asp-action="ExternalRegister" method="post">
+        <div class="form-floating mb-3">
+            <label asp-for="Username"></label>
+            <input type="text" class="form-control" placeholder="Enter a password" asp-for="Username">
+        </div>
+        <button class="btn btn-primary col-12 my-2" name="button" >Sign Up</button>
+    </form>
+</div>

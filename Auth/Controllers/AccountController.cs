@@ -32,14 +32,10 @@
             }
 
             [HttpGet]
-            public IActionResult Login(string returnUrl)
+            public async Task<IActionResult> Login(string returnUrl)
             {
-                var vm = new LoginViewModel()
-                {
-                    ReturnUrl = returnUrl
-                };
-
-                return View(vm);
+                var externalProviders = await _signInManager.GetExternalAuthenticationSchemesAsync();
+                return View(new LoginViewModel { ReturnUrl=returnUrl, ExternalProviders=externalProviders});
             }
 
             [HttpPost]
@@ -140,6 +136,79 @@
                 }
                 return View("RegistrationSuccess");
             }
-        }
+			
+			public async Task<IActionResult> ExternalLogin(string provider, string returnUrl)
+            {
+			    // build a return URL so the external provider will redirect back
+			    // to us after the user has logged in
+			    var redirectUrl = Url.Action(nameof(ExternalLoginCallback), "Account", new { returnUrl });
+			    var properties = _signInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
+			    return Challenge(properties, provider);
+            }
+            public async Task<IActionResult> ExternalLoginCallback(string returnUrl)
+            {
+                var info = await _signInManager.GetExternalLoginInfoAsync();
+                if (info == null)
+                {
+                    return RedirectToAction("Login");
+                }
+
+                // Sign in the user with this external login provider if the user already has a login.
+                var result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false);
+                if (result.Succeeded)
+                {
+                    return Redirect(returnUrl);
+                }
+                return View("ExternalRegister", new ExternalRegisterViewModel
+                {
+					Username = info.Principal.FindFirst(ClaimTypes.Name.Replace(" ", "_")).Value,
+					ReturnUrl = returnUrl,
+				});
+			}
+			
+			public async Task<IActionResult> ExternalRegister(ExternalRegisterViewModel vm)
+            {
+				var info = await _signInManager.GetExternalLoginInfoAsync();
+				if (info == null)
+				{
+					return RedirectToAction("Login");
+				}
+
+				var user = new ApplicationUser
+				{
+					UserName = vm.Username,
+					Email = vm.Email,
+					EmailConfirmed = true,
+				};
+
+				var result = await _userManager.CreateAsync(user);
+
+				if (!result.Succeeded)
+				{
+					throw new Exception(result.Errors.First().Description);
+				}
+				result = await _userManager.AddClaimsAsync(user, new Claim[]{
+					        new Claim(JwtClaimTypes.Email, vm.Email),
+							new Claim(JwtClaimTypes.PreferredUserName, vm.Username),
+							new Claim(JwtClaimTypes.Role,"user"),
+						});
+
+				if (!result.Succeeded)
+				{
+					throw new Exception(result.Errors.First().Description);
+				}
+
+				result = await _userManager.AddLoginAsync(user, info);
+				if (!result.Succeeded)
+				{
+					throw new Exception(result.Errors.First().Description);
+				}
+
+                await _signInManager.SignInAsync(user, isPersistent: false);
+				
+				return View(vm.ReturnUrl);
+
+			}
+		}
     }
 }

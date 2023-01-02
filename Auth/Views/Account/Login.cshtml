@@ -6,6 +6,12 @@
         border-radius: 8px;
         border: 1px solid #ccc;
     }
+	.external-login{
+        background-color: #3b5999 ;
+        border:none;
+        border-radius:5px;
+        
+    }
 </style>
 <div class="login-page p-4">
     <div class="page-header">
@@ -13,6 +19,7 @@
     </div>
 
     <partial name="_ValidationSummary" />
+	
     <form asp-route="Login">
         <div class="form-floating mb-3">
             <label asp-for="Email"></label>
@@ -25,4 +32,13 @@
         <button class="btn btn-primary col-12 my-2" name="button" value="login">Login</button>
     </form>
     <p class="text-center text-secondary py-2">Not Registered? <a href="Register" class="text-decoration-none">Register</a></p>
+    <p class="text-center">Or</p>
+    <form asp-controller="Account" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+        @foreach (var provider in Model.ExternalProviders)
+        {
+            <button class="external-login text-center text-white fw-bold p-2 text-capitalize" name="provider" value="@provider.Name" type="submit">
+                <i class="bi bi-facebook"></i> continue with @provider.Name
+            </button>
+        }
+    </form>
 </div>
