@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.InteropServices;
+
 namespace Auth.Models
 {
     public class LoginViewModel
@@ -11,6 +13,6 @@ namespace Auth.Models
         public bool RememberLogin { get; set; }
         public string ReturnUrl { get; set; }
 
-        public IEnumerable<AuthenticationScheme> ExternalProviders { get; set; }
+        public IEnumerable<AuthenticationScheme>?ExternalProviders { get; set; }
     }
 }
