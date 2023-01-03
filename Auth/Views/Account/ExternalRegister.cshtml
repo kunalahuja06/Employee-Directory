@@ -10,6 +10,8 @@
 <div class="external-login p-4">
     <partial name="_ValidationSummary" />
     <form asp-controller="Account" asp-action="ExternalRegister" method="post">
+        <input type="hidden" asp-for="ReturnUrl" />
+        <input type="hidden" asp-for="Email" />
         <div class="form-floating mb-3">
             <label asp-for="Username"></label>
             <input type="text" class="form-control" placeholder="Enter a password" asp-for="Username">

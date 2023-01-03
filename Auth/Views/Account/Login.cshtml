@@ -1,5 +1,9 @@
 @model Auth.Models.LoginViewModel
 
+@{
+    var externals=Model.ExternalProviders.ToList();
+}
+
 <style>
     .login-page {
         background-color: white;
@@ -7,10 +11,14 @@
         border: 1px solid #ccc;
     }
 	.external-login{
-        background-color: #3b5999 ;
         border:none;
         border-radius:5px;
-        
+    }
+    .external-login:focus{
+        border:none;
+    }
+    .facebook{
+        background-color: #3b5999;
     }
 </style>
 <div class="login-page p-4">
@@ -33,12 +41,22 @@
     </form>
     <p class="text-center text-secondary py-2">Not Registered? <a href="Register" class="text-decoration-none">Register</a></p>
     <p class="text-center">Or</p>
-    <form asp-controller="Account" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-        @foreach (var provider in Model.ExternalProviders)
+    <form asp-controller="Account" asp-action="ExternalLogin" asp-route-ReturnUrl="@Model.ReturnUrl" method="post">
+        @*@foreach (var provider in Model.ExternalProviders)
         {
-            <button class="external-login text-center text-white fw-bold p-2 text-capitalize" name="provider" value="@provider.Name" type="submit">
-                <i class="bi bi-facebook"></i> continue with @provider.Name
+            <div class="d-flex justify-content-between">
+                <button class="external-login text-center text-white fw-bold p-2 text-capitalize" name="provider" value="@provider.Name" type="submit">
+                    <i class="bi bi-facebook p-2"></i> continue with @provider.Name
+                </button>
+            </div>
+        }*@
+        <div class="d-flex justify-content-between">
+            <button class="external-login facebook text-center text-white fw-bold p-2 text-capitalize me-1" name="provider" value="@externals[0].Name" type="submit">
+                <i class="bi bi-facebook p-1"></i> continue with @externals[0].Name
             </button>
-        }
+            <button class="external-login bg-danger text-center text-white fw-bold p-2 text-capitalize ms-1" name="provider" value="@externals[1].Name" type="submit">
+                <i class="bi bi-google p-1"></i> continue with @externals[1].Name
+            </button>
+        </div>
     </form>
 </div>

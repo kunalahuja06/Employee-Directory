@@ -157,3 +157,4 @@ E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\Auth.staticwebassets.runt
 E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\Auth.RazorAssemblyInfo.cache
 E:\Internship_Tasks\Address-Book\Auth\obj\Debug\net6.0\Auth.RazorAssemblyInfo.cs
 E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+E:\Internship_Tasks\Address-Book\Auth\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll

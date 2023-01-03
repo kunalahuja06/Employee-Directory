@@ -161,7 +161,8 @@
                 }
                 return View("ExternalRegister", new ExternalRegisterViewModel
                 {
-					Username = info.Principal.FindFirst(ClaimTypes.Name.Replace(" ", "_")).Value,
+                    Email = info.Principal.FindFirst(ClaimTypes.Email).Value,
+                    Username = info.Principal.FindFirst(ClaimTypes.Name.Replace(" ", "_")).Value,
 					ReturnUrl = returnUrl,
 				});
 			}
@@ -177,7 +178,7 @@
 				var user = new ApplicationUser
 				{
 					UserName = vm.Username,
-					Email = vm.Email,
+                    Email =vm.Email,
 					EmailConfirmed = true,
 				};
 
@@ -188,7 +189,6 @@
 					throw new Exception(result.Errors.First().Description);
 				}
 				result = await _userManager.AddClaimsAsync(user, new Claim[]{
-					        new Claim(JwtClaimTypes.Email, vm.Email),
 							new Claim(JwtClaimTypes.PreferredUserName, vm.Username),
 							new Claim(JwtClaimTypes.Role,"user"),
 						});
@@ -206,7 +206,7 @@
 
                 await _signInManager.SignInAsync(user, isPersistent: false);
 				
-				return View(vm.ReturnUrl);
+				return Redirect(vm.ReturnUrl);
 
 			}
 		}

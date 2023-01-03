@@ -37,6 +37,11 @@ builder.Services.AddAuthentication()
     {
         facebookOptions.AppId = "1592394194569892";
         facebookOptions.AppSecret = "631ffbc030175ae3e5d22192cc4e3aed";
+    })
+    .AddGoogle(googleOptions =>
+    {
+        googleOptions.ClientId = "616596981757-8b7r422281556cpdo6qj00hoakkvr44s.apps.googleusercontent.com";
+        googleOptions.ClientSecret = "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";
     });
 
 
