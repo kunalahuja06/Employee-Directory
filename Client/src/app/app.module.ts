@@ -24,6 +24,7 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TokenInterceptorService } from './shared/services/token-interceptor.service';
 import { ToastsContainerComponent } from './shared/components/toast-container/toast-container.component';
 import { ToastService } from './shared/services/toast.service';
+import { RegisterCallbackComponent } from './components/register-callback/register-callback.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { ToastService } from './shared/services/toast.service';
     SigninRedirectCallbackComponent,
     SignoutRedirectCallbackComponent,
     HomeComponent,
+    RegisterCallbackComponent,
   ],
   imports: [
     BrowserModule,

@@ -30,13 +30,13 @@
     <div class="page-header">
         <h2 class="text-center">Login</h2>
     </div>
-
+	
     <partial name="_ValidationSummary" />
 	
     <form asp-route="Login">
         <div class="form-floating mb-3">
-            <label asp-for="Email"></label>
-            <input type="email" class="form-control" placeholder="Enter your email address" asp-for="Email" autofocus>
+            <label asp-for="UserName"></label>
+            <input type="text" class="form-control" placeholder="Enter your User Name" asp-for="UserName" autofocus>
         </div>
         <div class="form-floating mb-3">
             <label asp-for="Password"></label>
