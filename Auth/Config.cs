@@ -61,14 +61,15 @@ namespace Auth
                     IdentityServerConstants.StandardScopes.Email,
                     "EmployeeAPI.read",
                     "EmployeeAPI.write",
-                    "roles"
+                    "roles",
+                    "offline_access"
                 },
                 AllowOfflineAccess= true,
                 AllowedCorsOrigins = { "http://localhost:4200" },
                 RequireClientSecret = false,
                 PostLogoutRedirectUris = new List<string> { "http://localhost:4200/signout-callback" },
                 RequireConsent = false,
-                AccessTokenLifetime = 3600
+                AccessTokenLifetime = 3600,
             }
         };
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GKN7Y4GVT68gKWysIEC5zq1zjq722VJQTRxwgp/AgH0=",
+  "Hash": "obr+wM0sNwwoeN31RkWRTxJKYc3yq+cbFylTr58oTtI=",
   "Source": "Auth",
   "BasePath": "_content/Auth",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Auth\\wwwroot",
       "Source": "Auth",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\css\\site.css",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\css\\site.css",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\css\\site.min.css",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\css\\site.min.css",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "css/site.min.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.min.css"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\css\\site.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\css\\site.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "css/site.scss",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\favicon.ico",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\favicon.ico",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\icon.jpg",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\icon.jpg",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "icon.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\icon.jpg"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\icon.png",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\icon.png",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "icon.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\icon.png"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\js\\signin-redirect.js",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\js\\signin-redirect.js",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "js/signin-redirect.js",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\js\\signin-redirect.js"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\js\\signout-redirect.js",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\js\\signout-redirect.js",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "js/signout-redirect.js",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\js\\signout-redirect.js"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\README.md",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\README.md",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/README.md",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\README.md"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_alert.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_alert.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_alert.scss",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_badge.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_badge.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_badge.scss",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_breadcrumb.scss",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_button-group.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_button-group.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_button-group.scss",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_buttons.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_buttons.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_buttons.scss",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_card.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_card.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_card.scss",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_carousel.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_carousel.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_carousel.scss",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_close.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_close.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_close.scss",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_code.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_code.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_code.scss",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_code.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_custom-forms.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_custom-forms.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_custom-forms.scss",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_custom-forms.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_dropdown.scss",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_forms.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_forms.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_forms.scss",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_functions.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_functions.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_functions.scss",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_grid.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_grid.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_grid.scss",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_images.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_images.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_images.scss",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_input-group.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_input-group.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_input-group.scss",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_input-group.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_jumbotron.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_jumbotron.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_jumbotron.scss",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_jumbotron.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_list-group.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_list-group.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_list-group.scss",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_media.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_media.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_media.scss",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_media.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_mixins.scss",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_modal.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_modal.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_modal.scss",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_nav.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_nav.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_nav.scss",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_navbar.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_navbar.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_navbar.scss",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_pagination.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_pagination.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_pagination.scss",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_popover.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_popover.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_popover.scss",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_print.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_print.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_print.scss",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_print.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_progress.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_progress.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_progress.scss",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_reboot.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_reboot.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_reboot.scss",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_root.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_root.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_root.scss",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_spinners.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_spinners.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_spinners.scss",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_tables.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_tables.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_tables.scss",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_toasts.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_toasts.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_toasts.scss",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_tooltip.scss",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_transitions.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_transitions.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_transitions.scss",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_type.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_type.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_type.scss",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_utilities.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_utilities.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_utilities.scss",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/_variables.scss",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/bootstrap.scss",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/bootstrap-grid.scss",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/bootstrap-reboot.scss",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_alert.scss",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_background-variant.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_background-variant.scss",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_background-variant.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_badge.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_badge.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_badge.scss",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_badge.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_border-radius.scss",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_box-shadow.scss",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_breakpoints.scss",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_buttons.scss",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_caret.scss",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_clearfix.scss",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_deprecate.scss",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_float.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_float.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_float.scss",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_float.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_forms.scss",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_gradients.scss",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_grid.scss",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid-framework.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_grid-framework.scss",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid-framework.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_hover.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_hover.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_hover.scss",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_hover.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_image.scss",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_list-group.scss",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_lists.scss",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_nav-divider.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_nav-divider.scss",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_nav-divider.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_pagination.scss",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_reset-text.scss",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_resize.scss",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_screen-reader.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_screen-reader.scss",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_screen-reader.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_size.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_size.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_size.scss",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_size.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-row.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_table-row.scss",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-row.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_text-emphasis.scss",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-hide.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_text-hide.scss",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-hide.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_text-truncate.scss",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_transition.scss",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_visibility.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/mixins/_visibility.scss",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_visibility.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_align.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_align.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_align.scss",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_align.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_background.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_background.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_background.scss",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_background.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_borders.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_borders.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_borders.scss",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_borders.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_clearfix.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_clearfix.scss",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_clearfix.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_display.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_display.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_display.scss",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_display.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_embed.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_embed.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_embed.scss",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_embed.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_flex.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_flex.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_flex.scss",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_flex.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_float.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_float.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_float.scss",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_float.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_overflow.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_overflow.scss",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_overflow.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_position.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_position.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_position.scss",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_position.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_screenreaders.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_screenreaders.scss",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_screenreaders.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_shadows.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_shadows.scss",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_shadows.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_sizing.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_sizing.scss",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_sizing.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_spacing.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_spacing.scss",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_spacing.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_stretched-link.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_stretched-link.scss",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_stretched-link.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_text.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_text.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_text.scss",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_text.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_visibility.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/utilities/_visibility.scss",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_visibility.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/bootstrap/scss/vendor/_rfs.scss",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/jquery/dist/jquery.slim.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/jquery/dist/jquery.slim.min.js",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/jquery/dist/jquery.slim.min.map",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\README.md",
+      "Identity": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\lib\\jquery\\README.md",
       "SourceId": "Auth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Core\\repos\\Address-Book\\Auth\\wwwroot\\",
+      "ContentRoot": "E:\\Internship_Tasks\\Address-Book\\Auth\\wwwroot\\",
       "BasePath": "_content/Auth",
       "RelativePath": "lib/jquery/README.md",
       "AssetKind": "All",

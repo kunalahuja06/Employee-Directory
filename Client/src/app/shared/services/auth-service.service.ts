@@ -18,7 +18,7 @@ export class AuthService {
       authority: 'https://localhost:5001',
       client_id: 'AddressBook_User',
       redirect_uri: 'http://localhost:4200/signin-callback',
-      scope: "openid profile EmployeeAPI.read EmployeeAPI.write roles email",
+      scope: "openid profile EmployeeAPI.read EmployeeAPI.write roles email offline_access",
       response_type: "code",
       post_logout_redirect_uri: 'http://localhost:4200/signout-callback',
       automaticSilentRenew: true,

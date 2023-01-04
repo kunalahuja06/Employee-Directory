@@ -14,7 +14,7 @@
         const idpSettings = {
             authority: "https://localhost:5001",
             clientId: "AddressBook_User",
-            scope: "openid profile EmployeeAPI.read EmployeeAPI.write roles",
+            scope: "openid profile EmployeeAPI.read EmployeeAPI.write roles email offline_access",
             response_type: "code"
         };
         new Oidc.UserManager(idpSettings).signinSilentCallback()
