@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
 
 var assembly = typeof(Program).Assembly.GetName().Name;
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnectionString");
+var connectionString = builder.Configuration.GetConnectionString("AzureDB");
 
 builder.Services.AddDbContext<AspNetIdentityDbContext>(opt =>
 {

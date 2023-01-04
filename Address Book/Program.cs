@@ -58,7 +58,7 @@ builder.Services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
     .AllowAnyMethod()
     .AllowAnyHeader();
 }));
-var connectionString = builder.Configuration["Data:ConnectionStrings:DefaultConnectionString"];
+var connectionString = builder.Configuration["Data:ConnectionStrings:AzureDB"];
 builder.Services.AddDbContext<EmployeeDbContext>(opt => opt.UseSqlServer(connectionString));
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
     
