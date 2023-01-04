@@ -50,7 +50,7 @@ namespace Address_Book.Controllers
         }
 
         [HttpPut]
-        [Route("employees/update")]
+        [Route("employee/update")]
         [Authorize]
         public IActionResult UpdateEmployee([FromBody] Employee employee)
         {
@@ -65,20 +65,20 @@ namespace Address_Book.Controllers
             else
             {
                 var update = _employeeService.UpdateEmployee(employee);
-                if (update.Result && update.IsCompletedSuccessfully)
-                {
-                    return BadRequest(new
-                    {
-                        StatusCode = 500,
-                        Message = "Unable to update employee"
-                    });
-                }
-                else
+                if (update.Result==true && update.IsCompletedSuccessfully)
                 {
                     return Ok(new
                     {
                         StatusCode = 200,
                         Message = "Employee updated successfully"
+                    });
+                }
+                else
+                {
+                    return BadRequest(new
+                    {
+                        StatusCode = 500,
+                        Message = "Unable to update employee"
                     });
                 }
             }
