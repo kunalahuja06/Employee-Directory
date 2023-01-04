@@ -12,10 +12,15 @@ namespace EmpService
         {
             _employeeContext = employeeContext;
         }
-        public async void AddEmployee(Employee employee)
+        public async Task<bool> AddEmployee(Employee employee)
         {
-            await _employeeContext.Employees.AddAsync(employee);
-            await _employeeContext.SaveChangesAsync();
+            if (employee == null) { return false; }
+            else
+            {
+                _employeeContext.Employees.Add(employee);
+                await _employeeContext.SaveChangesAsync();
+                return true;
+            }
         }
 
         public async Task<List<Employee>> GetEmployees()
@@ -36,6 +41,7 @@ namespace EmpService
             try
             {
                 var employee = await _employeeContext.Employees.FindAsync(id);
+                if (employee == null) return null;
                 return employee;
             }
             catch (Exception ex)
@@ -44,15 +50,19 @@ namespace EmpService
             }
         }
 
-        public async void UpdateEmployee(Employee employee)
+        public async Task<bool> UpdateEmployee(Employee employee)
         {
             try
             {
-                var employeeToBeUpdated = _employeeContext.Employees.FirstOrDefault(x => x.Id == employee.Id);
-                if (employeeToBeUpdated != null)
+                if (employee == null) return false;
+                else
                 {
+                    var employeeToBeUpdated = await _employeeContext.Employees.FirstOrDefaultAsync(x => x.Id == employee.Id);
+                    if (employeeToBeUpdated == null) return false;
                     _employeeContext.Entry(employeeToBeUpdated).CurrentValues.SetValues(employee);
-                    _employeeContext.SaveChanges();
+                    _employeeContext.Update(employeeToBeUpdated);
+                    await _employeeContext.SaveChangesAsync();
+                    return true;
                 }
             }
             catch(Exception ex)
@@ -61,16 +71,15 @@ namespace EmpService
             }
         }
 
-        public async Task DeleteEmployee(int id)
+        public async Task<bool> DeleteEmployee(int id)
         {
             try
             {
-                var employeeToBeDeleted = _employeeContext.Employees.Find(id);
-                if (employeeToBeDeleted != null)
-                {
-                    _employeeContext.Employees.Remove(employeeToBeDeleted);
-                }
-                _employeeContext.SaveChanges();
+                var employeeToBeDeleted = await _employeeContext.Employees.FindAsync(id);
+                if (employeeToBeDeleted == null) return false;
+                _employeeContext.Remove(employeeToBeDeleted);
+                await _employeeContext.SaveChangesAsync();
+                return true;
             }
             catch(Exception ex)
             {

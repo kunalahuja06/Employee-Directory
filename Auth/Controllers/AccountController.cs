@@ -132,7 +132,7 @@
                     throw new Exception("Error signing in, retry from log in page");
                 }
                 return Redirect("http://localhost:4200/register-callback");
-                //return View("RegistrationSuccess");
+ 
             }
 			
 			public async Task<IActionResult> ExternalLogin(string provider, string returnUrl)

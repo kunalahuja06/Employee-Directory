@@ -48,21 +48,21 @@ export class EmployeeService {
 
   addEmployee(e:any):any {
     let employee={PreferredName:e.preferredName,FirstName:e.firstName,LastName:e.lastName,Email:e.email,PhoneNumber:e.phoneNumber,SkypeID:e.skypeId,JobTitle:e.jobTitle,Office:e.office,Department:e.department,Picture:e.picture}
-    return this.client.post<any>(`${this.url}add_employee`,employee)
+    return this.client.post<any>(`${this.url}employees/add`,employee)
     .pipe(
       catchError(this.EmployeeError),
       map((data:any)=>{return data}))
   }
 
   setEmployee(employee:any){
-    return this.client.put<any>(`${this.url}update_employee`,employee)
+    return this.client.put<any>(`${this.url}employee/update`,employee)
     .pipe(
       catchError(this.EmployeeError),
       map((data:any)=>{return data}))
   }
 
   deleteEmployee(id:any){
-   return this.client.delete<any>(`${this.url}delete_employee/${id}`)
+   return this.client.delete<any>(`${this.url}employee/delete/${id}`)
     .pipe(
       catchError(this.EmployeeError),
       map((data:any)=>{return data}))

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Internship_Tasks\\Address-Book\\Auth\\Auth.csproj": {}
+    "C:\\Core\\repos\\Address-Book\\Auth\\Auth.csproj": {}
   },
   "projects": {
-    "E:\\Internship_Tasks\\Address-Book\\Auth\\Auth.csproj": {
+    "C:\\Core\\repos\\Address-Book\\Auth\\Auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Internship_Tasks\\Address-Book\\Auth\\Auth.csproj",
+        "projectUniqueName": "C:\\Core\\repos\\Address-Book\\Auth\\Auth.csproj",
         "projectName": "Auth",
-        "projectPath": "E:\\Internship_Tasks\\Address-Book\\Auth\\Auth.csproj",
-        "packagesPath": "C:\\Users\\krins\\.nuget\\packages\\",
-        "outputPath": "E:\\Internship_Tasks\\Address-Book\\Auth\\obj\\",
+        "projectPath": "C:\\Core\\repos\\Address-Book\\Auth\\Auth.csproj",
+        "packagesPath": "C:\\Users\\kunal.a\\.nuget\\packages\\",
+        "outputPath": "C:\\Core\\repos\\Address-Book\\Auth\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\krins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kunal.a\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

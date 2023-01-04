@@ -160,3 +160,10 @@ E:\Internship_Tasks\Address-Book\Address Book\obj\Debug\net6.0\refint\AddressBoo
 E:\Internship_Tasks\Address-Book\Address Book\obj\Debug\net6.0\AddressBook.pdb
 E:\Internship_Tasks\Address-Book\Address Book\obj\Debug\net6.0\AddressBook.genruntimeconfig.cache
 E:\Internship_Tasks\Address-Book\Address Book\obj\Debug\net6.0\ref\AddressBook.dll
+C:\Core\repos\Address-Book\Address Book\obj\Debug\net6.0\AddressBook.csproj.AssemblyReference.cache
+C:\Core\repos\Address-Book\Address Book\obj\Debug\net6.0\AddressBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Core\repos\Address-Book\Address Book\obj\Debug\net6.0\AddressBook.AssemblyInfoInputs.cache
+C:\Core\repos\Address-Book\Address Book\obj\Debug\net6.0\AddressBook.AssemblyInfo.cs
+C:\Core\repos\Address-Book\Address Book\obj\Debug\net6.0\AddressBook.csproj.CoreCompileInputs.cache
+C:\Core\repos\Address-Book\Address Book\obj\Debug\net6.0\AddressBook.MvcApplicationPartsAssemblyInfo.cs
+C:\Core\repos\Address-Book\Address Book\obj\Debug\net6.0\AddressBook.MvcApplicationPartsAssemblyInfo.cache

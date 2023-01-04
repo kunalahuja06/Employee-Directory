@@ -13,59 +13,115 @@ namespace Address_Book.Controllers
         {
             _employeeService = employeeService;
         }
-        [HttpPost("add_employee")]
-        [Authorize(Roles ="Admin")]
+        [HttpPost]
+        [Route("employees/add")]
+        [Authorize(Roles = "Admin")]
         public IActionResult AddEmployee([FromBody] Employee employee)
         {
-            if(employee==null)
+            if (employee == null)
             {
-                return BadRequest();
+                return BadRequest(new
+                {
+                    StatusCode = 400,
+                    Message = "Employee cannot be null",
+                });
             }
             else
             {
-                _employeeService.AddEmployee(employee);
-                return Ok(new{
-                    statusCode = 200,
-                    message = "Employee Added Successfully"
-                });
+                var add = _employeeService.AddEmployee(employee);
+                if (add.Result==true && add.IsCompletedSuccessfully)
+                {
+                    return Ok(new
+                    {
+                        statusCode = 200,
+                        message = "Employee Added Successfully"
+                    });
+                }
+                else
+                {
+                    return BadRequest(new
+                    {
+                        statusCode = 500,
+                        message = "Employee cannot be added"
+                    });
+                }
+
             }
         }
 
-        [HttpPut("update_employee")]
+        [HttpPut]
+        [Route("employees/update")]
         [Authorize]
         public IActionResult UpdateEmployee([FromBody] Employee employee)
         {
             if (employee == null)
             {
-                return BadRequest();
+                return BadRequest(new
+                {
+                    StatusCode = 400,
+                    Message = "Employee cannot be null",
+                });
             }
             else
             {
-                _employeeService.UpdateEmployee(employee);
-                return Ok(new
+                var update = _employeeService.UpdateEmployee(employee);
+                if (update.Result && update.IsCompletedSuccessfully)
                 {
-                    StatusCode = 200,
-                    Message = "Employee Updated Successfully"
-                });
+                    return BadRequest(new
+                    {
+                        StatusCode = 500,
+                        Message = "Unable to update employee"
+                    });
+                }
+                else
+                {
+                    return Ok(new
+                    {
+                        StatusCode = 200,
+                        Message = "Employee updated successfully"
+                    });
+                }
             }
         }
-        [HttpDelete("delete_employee/{id}")]
-		[Authorize(Roles = "Admin")]
-		public IActionResult DeleteEmployee(int id)
+        [HttpDelete]
+        [Route("employee/delete/{id}")]
+        [Authorize(Roles = "Admin")]
+        public IActionResult DeleteEmployee(int id)
         {
-            
-            _employeeService.DeleteEmployee(id);
-            return Ok(new
+            if (id <= 0)
             {
-                StatusCode = 200,
-                Message = "Employee Deleted Successfully"
-            });
+                return BadRequest(new
+                {
+                    StatusCode = 400,
+                    Message = "Employee Id cannot be null"
+                });
+            }
+            else
+            {
+                var delete = _employeeService.DeleteEmployee(id);
+                if (delete.Result == false)
+                {
+                    return BadRequest(new
+                    {
+                        StatusCode = 500,
+                        Message = "unable to delete employee"
+                    });
+                }
+                else
+                {
+                    return Ok(new
+                    {
+                        StatusCode = 200,
+                        Message = "Employee deleted successfully"
+                    });
+                }
+            }
         }
         [HttpGet("employees")]
         [Authorize]
         public IActionResult GetEmployees()
         {
-            var employees =_employeeService.GetEmployees();
+            var employees = _employeeService.GetEmployees();
             return Ok(new
             {
                 StatusCode = 200,
@@ -75,12 +131,16 @@ namespace Address_Book.Controllers
 
         [HttpGet("employee/{id}")]
         [Authorize]
-        
+
         public IActionResult GetEmployee(int id)
         {
-            if (id == 0)
+            if (id <= 0)
             {
-                return BadRequest();
+                return BadRequest(new
+                {
+                    StatusCode=400,
+                    Message = "Employee Id cannot be null"
+                });
             }
             else
             {
