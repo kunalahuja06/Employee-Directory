@@ -12,6 +12,7 @@ builder.Services.AddControllers();
 
 
 
+
 builder.Services.AddAuthentication("Bearer")
     .AddIdentityServerAuthentication("Bearer", opt =>
     {
