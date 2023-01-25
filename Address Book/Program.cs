@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 
+
 builder.Services.AddAuthentication("Bearer")
     .AddIdentityServerAuthentication("Bearer", opt =>
     {
