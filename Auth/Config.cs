@@ -1,7 +1,7 @@
 ﻿using IdentityServer4;
 using IdentityServer4.Models;
 
-namespace Auth
+namespace EmployeeDirectory.Auth
 {
     public class Config
     {

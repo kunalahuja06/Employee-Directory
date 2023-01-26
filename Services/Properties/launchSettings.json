@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Services": {
+    "EmployeeDirectory.Services": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

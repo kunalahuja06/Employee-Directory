@@ -1,5 +1,5 @@
-﻿using Auth;
-using Auth.Data;
+﻿using EmployeeDirectory.Auth;
+using EmployeeDirectory.Auth.Data;
 using IdentityServer4.EntityFramework.DbContexts;
 using IdentityServer4.EntityFramework.Mappers;
 using Microsoft.EntityFrameworkCore;

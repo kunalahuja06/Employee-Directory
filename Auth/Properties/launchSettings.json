@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Auth": {
+    "EmployeeDirectory.Auth": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

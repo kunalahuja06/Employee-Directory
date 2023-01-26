@@ -1,4 +1,4 @@
-﻿namespace Auth.Models
+﻿namespace EmployeeDirectory.Auth.Models
 {
     public class RedirectViewModel
     {

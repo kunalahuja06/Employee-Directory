@@ -1,7 +1,7 @@
-﻿using EmpService.Models;
+﻿using EmployeeDirectory.Services.Models;
 
 
-namespace EmpService.Contracts
+namespace EmployeeDirectory.Services.Contracts
 {
     public interface IEmployeeService
     {

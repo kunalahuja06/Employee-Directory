@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UliCI8nuEvZ1d0SdC7Tq/nGm0PE6fgJiHBxvEYL+kS8=",
+  "Source": "EmployeeDirectory.API",
+  "BasePath": "_content/EmployeeDirectory.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

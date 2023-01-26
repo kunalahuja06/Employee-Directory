@@ -1,7 +1,7 @@
-﻿namespace Auth.Controllers
+﻿namespace EmployeeDirectory.Auth.Controllers
 {
-    using Auth.Data;
-    using Auth.Models;
+    using EmployeeDirectory.Auth.Data;
+    using EmployeeDirectory.Auth.Models;
     using IdentityModel;
     using IdentityServer4.Services;
     using Microsoft.AspNetCore.Authorization;

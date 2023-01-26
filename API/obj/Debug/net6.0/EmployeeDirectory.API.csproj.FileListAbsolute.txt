@@ -1,0 +1,159 @@
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\EmployeeDirectory.API.csproj.AssemblyReference.cache
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\EmployeeDirectory.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\EmployeeDirectory.API.AssemblyInfoInputs.cache
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\EmployeeDirectory.API.AssemblyInfo.cs
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\EmployeeDirectory.API.csproj.CoreCompileInputs.cache
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\EmployeeDirectory.API.MvcApplicationPartsAssemblyInfo.cache
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\appsettings.Development.json
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\appsettings.json
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\EmployeeDirectory.API.exe
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\EmployeeDirectory.API.deps.json
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\EmployeeDirectory.API.runtimeconfig.json
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\EmployeeDirectory.API.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\EmployeeDirectory.API.pdb
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\IdentityModel.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\IdentityModel.AspNetCore.OAuth2Introspection.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\IdentityServer4.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\IdentityServer4.AccessTokenValidation.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\IdentityServer4.Storage.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Serilog.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\EmployeeDirectory.Services.dll
+E:\Personal Projects\Employee-Directory\Address Book\bin\Debug\net6.0\EmployeeDirectory.Services.pdb
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\staticwebassets\msbuild.EmployeeDirectory.API.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\staticwebassets\msbuild.build.EmployeeDirectory.API.props
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.EmployeeDirectory.API.props
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.EmployeeDirectory.API.props
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\staticwebassets.build.json
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\staticwebassets.development.json
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\scopedcss\bundle\EmployeeDirectory.API.styles.css
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\EmployeeDirectory.API.csproj.CopyComplete
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\EmployeeDirectory.API.dll
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\refint\EmployeeDirectory.API.dll
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\EmployeeDirectory.API.pdb
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\EmployeeDirectory.API.genruntimeconfig.cache
+E:\Personal Projects\Employee-Directory\Address Book\obj\Debug\net6.0\ref\EmployeeDirectory.API.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\appsettings.Development.json
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\appsettings.json
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\EmployeeDirectory.API.exe
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\EmployeeDirectory.API.deps.json
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\EmployeeDirectory.API.runtimeconfig.json
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\EmployeeDirectory.API.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\EmployeeDirectory.API.pdb
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\IdentityModel.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\IdentityModel.AspNetCore.OAuth2Introspection.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\IdentityServer4.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\IdentityServer4.AccessTokenValidation.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\IdentityServer4.Storage.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Serilog.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\EmployeeDirectory.Services.dll
+E:\Personal Projects\Employee-Directory\API\bin\Debug\net6.0\EmployeeDirectory.Services.pdb
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\EmployeeDirectory.API.csproj.AssemblyReference.cache
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\EmployeeDirectory.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\EmployeeDirectory.API.AssemblyInfoInputs.cache
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\EmployeeDirectory.API.AssemblyInfo.cs
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\EmployeeDirectory.API.csproj.CoreCompileInputs.cache
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\EmployeeDirectory.API.MvcApplicationPartsAssemblyInfo.cs
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\EmployeeDirectory.API.MvcApplicationPartsAssemblyInfo.cache
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\staticwebassets\msbuild.EmployeeDirectory.API.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\staticwebassets\msbuild.build.EmployeeDirectory.API.props
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.EmployeeDirectory.API.props
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.EmployeeDirectory.API.props
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\staticwebassets.build.json
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\staticwebassets.development.json
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\scopedcss\bundle\EmployeeDirectory.API.styles.css
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\EmployeeDirectory.API.csproj.CopyComplete
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\EmployeeDirectory.API.dll
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\refint\EmployeeDirectory.API.dll
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\EmployeeDirectory.API.pdb
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\EmployeeDirectory.API.genruntimeconfig.cache
+E:\Personal Projects\Employee-Directory\API\obj\Debug\net6.0\ref\EmployeeDirectory.API.dll

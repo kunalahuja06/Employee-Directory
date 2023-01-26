@@ -1,0 +1,2 @@
+E:\Personal Projects\Employee-Directory\Client\obj\Debug\EmployeeDirectory.Client.esproj.SuggestedBindingRedirects.cache
+E:\Personal Projects\Employee-Directory\Client\obj\Debug\EmployeeDirectory.Client.esproj.CoreCompileInputs.cache

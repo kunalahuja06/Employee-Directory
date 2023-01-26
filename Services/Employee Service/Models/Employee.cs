@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmpService.Models
+namespace EmployeeDirectory.Services.Models
 {
     public class Employee
     {

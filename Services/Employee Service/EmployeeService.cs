@@ -1,9 +1,9 @@
-﻿using EmpService.Contracts;
-using EmpService.Data;
-using EmpService.Models;
+﻿using EmployeeDirectory.Services.Contracts;
+using EmployeeDirectory.Services.Data;
+using EmployeeDirectory.Services.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace EmpService
+namespace EmployeeDirectory.Services
 {
     public class EmployeeService : IEmployeeService
     {

@@ -2664,19 +2664,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kunal.a\\.nuget\\packages\\": {}
+    "C:\\Users\\krins\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Core\\repos\\Address-Book\\Services\\Services.csproj",
-      "projectName": "Services",
-      "projectPath": "C:\\Core\\repos\\Address-Book\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\kunal.a\\.nuget\\packages\\",
-      "outputPath": "C:\\Core\\repos\\Address-Book\\Services\\obj\\",
+      "projectUniqueName": "E:\\Personal Projects\\Employee-Directory\\Services\\EmployeeDirectory.Services.csproj",
+      "projectName": "EmployeeDirectory.Services",
+      "projectPath": "E:\\Personal Projects\\Employee-Directory\\Services\\EmployeeDirectory.Services.csproj",
+      "packagesPath": "C:\\Users\\krins\\.nuget\\packages\\",
+      "outputPath": "E:\\Personal Projects\\Employee-Directory\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kunal.a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\krins\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2747,7 +2747,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

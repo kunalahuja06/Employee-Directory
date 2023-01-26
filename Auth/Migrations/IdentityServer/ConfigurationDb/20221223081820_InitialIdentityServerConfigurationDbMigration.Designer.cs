@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Auth.Migrations.IdentityServer.ConfigurationDb
+namespace EmployeeDirectory.Auth.Migrations.IdentityServer.ConfigurationDb
 {
     [DbContext(typeof(ConfigurationDbContext))]
     [Migration("20221223081820_InitialIdentityServerConfigurationDbMigration")]

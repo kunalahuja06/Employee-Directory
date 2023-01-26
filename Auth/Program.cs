@@ -1,5 +1,5 @@
-using Auth;
-using Auth.Data;
+using EmployeeDirectory.Auth;
+using EmployeeDirectory.Auth.Data;
 using Microsoft.AspNetCore.CookiePolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

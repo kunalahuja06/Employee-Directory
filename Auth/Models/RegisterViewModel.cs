@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Auth.Models
+namespace EmployeeDirectory.Auth.Models
 {
     public class RegisterViewModel
     {

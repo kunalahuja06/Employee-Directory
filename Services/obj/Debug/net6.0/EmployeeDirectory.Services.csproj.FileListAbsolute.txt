@@ -1,0 +1,12 @@
+E:\Personal Projects\Employee-Directory\Services\bin\Debug\net6.0\EmployeeDirectory.Services.deps.json
+E:\Personal Projects\Employee-Directory\Services\bin\Debug\net6.0\EmployeeDirectory.Services.dll
+E:\Personal Projects\Employee-Directory\Services\bin\Debug\net6.0\EmployeeDirectory.Services.pdb
+E:\Personal Projects\Employee-Directory\Services\obj\Debug\net6.0\EmployeeDirectory.Services.csproj.AssemblyReference.cache
+E:\Personal Projects\Employee-Directory\Services\obj\Debug\net6.0\EmployeeDirectory.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal Projects\Employee-Directory\Services\obj\Debug\net6.0\EmployeeDirectory.Services.AssemblyInfoInputs.cache
+E:\Personal Projects\Employee-Directory\Services\obj\Debug\net6.0\EmployeeDirectory.Services.AssemblyInfo.cs
+E:\Personal Projects\Employee-Directory\Services\obj\Debug\net6.0\EmployeeDirectory.Services.csproj.CoreCompileInputs.cache
+E:\Personal Projects\Employee-Directory\Services\obj\Debug\net6.0\EmployeeDirectory.Services.dll
+E:\Personal Projects\Employee-Directory\Services\obj\Debug\net6.0\refint\EmployeeDirectory.Services.dll
+E:\Personal Projects\Employee-Directory\Services\obj\Debug\net6.0\EmployeeDirectory.Services.pdb
+E:\Personal Projects\Employee-Directory\Services\obj\Debug\net6.0\ref\EmployeeDirectory.Services.dll

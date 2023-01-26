@@ -1,8 +1,8 @@
-﻿using EmpService.Models;
+﻿using EmployeeDirectory.Services.Models;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace EmpService.Data
+namespace EmployeeDirectory.Services.Data
 {
     public class EmployeeDbContext : DbContext
     {

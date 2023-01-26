@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Auth.Data
+namespace EmployeeDirectory.Auth.Data
 {
     public class AspNetIdentityDbContext:IdentityDbContext<ApplicationUser>
     {

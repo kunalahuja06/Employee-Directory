@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.InteropServices;
 
-namespace Auth.Models
+namespace EmployeeDirectory.Auth.Models
 {
     public class LoginViewModel
     {
