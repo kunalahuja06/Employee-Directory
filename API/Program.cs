@@ -16,7 +16,8 @@ builder.Services.AddControllers();
 builder.Services.AddAuthentication("Bearer")
     .AddIdentityServerAuthentication("Bearer", opt =>
     {
-        opt.Authority = "https://localhost:5001";
+        opt.Authority ="https://employee-directory-auth.azurewebsites.net"; 
+        //opt.Authority = "https://localhost:5001"; //testing
         opt.ApiName = "EmployeeAPI";
     });
     
