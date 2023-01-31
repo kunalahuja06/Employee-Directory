@@ -9,7 +9,7 @@
     <p class="search-para text-capitalize fw-normal my-auto" *ngIf="!mobileView">search</p>
     <input type="text" class="search-input mx-3 my-auto pe-lg-5" placeholder="Enter any keyword"
         [(ngModel)]="searchInput" (input)="search()" *ngIf="!mobileView">
-    <a href="#" class="clear-button text-capitalize text-decoration-none my-auto px-3 py-1 text-white ms-3 me-5"
+    <a href="#" class="clear-button text-capitalize text-decoration-none my-auto px-3 py-1 text-white ms-3 me-5 bg-danger"
         *ngIf="!mobileView" (click)="clear()">clear</a>
     <p class="filter-para my-auto mx-2">Filter by</p>
     <select id="filter" class="filter-options ps-2 pe-5 pb-1" [ngClass]="{'ps-3 pt-1':mobileView}" [(ngModel)]="searchFilterInput" (ngModelChange)="filterChange()">
@@ -23,10 +23,9 @@
         <option value="phoneNumber" class="text-capitalize">phone number</option>
         <option value="skypeID" class="text-capitalize">skype id</option>
     </select>
-    <a href="#" class="add-employee text-capitalize ms-auto text-decoration-none text-white my-auto px-2 py-1 fw-bold"
+    <a href="#" class="add-employee text-capitalize ms-auto text-decoration-none text-white my-auto px-3 py-1 fw-bold"
         (click)="openVerticallyCentered(addEmployee)" *ngIf="!mobileView && (isUserAuthenticated && isUserAdmin)">add employee</a>
 </div>
-<p class="note" *ngIf="!mobileView"><b>Note:</b> Please use the advanced filter options to refine your results.</p>
 
 <ng-template #addEmployee let-modal>
     <app-employee-details></app-employee-details>

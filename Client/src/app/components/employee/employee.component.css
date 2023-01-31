@@ -1,7 +1,9 @@
 .employee{
     width:17.5em !important;
-    background-color:rgba(1,1,1,0.1) !important;
+    background-color:#ffffff !important;
     height: fit-content;
+    border-radius:40px;
+    box-shadow: 0 0.2rem 0.2rem rgba(1,1,1,0.1);
 }
 .employee:not(:nth-child(4n+1)){
     margin-right: 0.8em !important; 
@@ -9,6 +11,7 @@
 .picture{
     height:80px !important;
     width:80px !important;
+    border-radius: 50%;
 }
 .employee-name{
     font-size:0.8rem;
@@ -49,7 +52,7 @@
 .show-employee-modal-picture{
     height:10rem;
     width:10rem;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 .show-employee-modal-label{
     color:black;
@@ -69,6 +72,7 @@
     width:19rem !important;
     background-color:rgb(247, 253, 255) !important;
     height: fit-content;
+    border-radius: 40px;
 }
 .user-img{
     height:8rem !important;

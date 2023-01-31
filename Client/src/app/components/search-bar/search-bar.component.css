@@ -1,5 +1,5 @@
 .search-alphabets-li{
-    border-radius: 0 !important;
+    border-radius: 2px !important;
     text-transform: uppercase;
     background-color: rgba(0,176,253,255) !important;
     color: white !important;
@@ -17,22 +17,25 @@
     background-position:0.4rem 0.5rem;
     background-repeat: no-repeat;
     padding-left:2rem;
-    border:1px solid rgba(1,1,1,0.3);
+    border:1px solid rgba(1,1,1,1);
+    border-radius: 40px;
     height:2.1rem;
 }
 ::-webkit-input-placeholder{
     color: rgba(1,1,1,0.6);
 }
 .clear-button{
-    background-color:rgba(105,186,0,255);
+    border-radius: 40px;
 }
 .filter-options{
-    border: 1px solid rgba(1,1,1,0.3);
+    border: 1px solid rgba(1,1,1,1);
+    border-radius: 40px;
     text-transform: capitalize;
     color:rgba(1,1,1,0.6);
 }
 .add-employee{
     background-color: rgba(0,176,253,255);
+    border-radius: 40px;
 }
 .note{
     font-size: 0.8rem !important;

@@ -82,7 +82,6 @@ export class AuthService {
   public getUser = (): Promise<User> => {
     return this._userManager.getUser()
       .then((user: any) => {
-        console.log(user);
         return !!user && !user.expired ? user : null;
       })
   }

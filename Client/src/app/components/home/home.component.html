@@ -20,7 +20,7 @@
     <!-- Main content-->
     <div class="py-3 pe-2 d-flex justify-content-end">
         <!-- add employee mobile UI-->
-        <a href="#" class="add-employee text-capitalize text-decoration-none text-white p-2"
+        <a href="#" class="add-employee text-capitalize text-decoration-none text-white py-2 px-3 rounded-pill fw-bold"
             (click)="openEnd(addEmployee)" *ngIf="mobileView  &&(isAuthenticated && isUserAdmin)">add employee</a>
     </div>
     <div class="col-lg-2" *ngIf="!mobileView">
@@ -48,8 +48,8 @@
     <!--footer mobile UI-->
     <div class="col-3"><a href="/"><span class="text-primary footer-elements fs-3"><i
                     class="fa-solid fa-house-chimney"></i></span></a></div>
-    <div class="col-3"><span class="text-secondary footer-elements fs-3"><i class="fa-solid fa-user"></i></span></div>
-    <div class="col-3"><span class="text-secondary footer-elements fs-3"><i class="fa-solid fa-users"></i></span></div>
+    <div class="col-3"><span class="text-dark footer-elements fs-3"><i class="fa-solid fa-user"></i></span></div>
+    <div class="col-3"><span class="text-dark footer-elements fs-3"><i class="fa-solid fa-users"></i></span></div>
 </div>
 
 
@@ -68,7 +68,6 @@
         <app-filters *ngFor="let f of filters" [filter]="f[1]" [title]="f[0]"></app-filters>
         <p class="text-center p-2 text-white fw-bold bg-danger" (click)="logout()">Logout</p>
         <div class="mt-3 pt-2 px-3">
-            <a href="/" class=""><img src="./../../../assets/images/logo.png" alt="logo" class="logo p-0 mb-3"></a>
             <p class="title text-capitalize text-info fw-normal m-0">employee directory</p>
         </div>
     </div>

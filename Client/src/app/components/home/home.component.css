@@ -1,8 +1,8 @@
 .employees{
-    border: 1px solid rgba(1,1,1,0.2);
     box-sizing: content-box;
     height:50vh;
     overflow-y: scroll;
+    background-color:rgb(247, 253, 255);
 }
 ::-webkit-scrollbar {
   width:1px;
@@ -14,6 +14,7 @@
 .add-employee{
     background-color: rgba(0,176,253,255);
     font-size:small;
+    
 }
 /* Mobile UI */
 .mobile-footer{
@@ -63,8 +64,9 @@
     background-position:0.4rem 0.5rem;
     background-repeat: no-repeat;
     padding-left:2rem;
-    border:1px solid rgba(1,1,1,0.3);
+    border:1px solid rgba(1,1,1);
     height:2.1rem;
+    border-radius: 40px;
 }
 ::-webkit-input-placeholder{
     color: rgba(1,1,1,0.6);
