@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 import { UserManager, User, UserManagerSettings } from 'oidc-client';
 import { Router } from '@angular/router';
-import { environment } from 'src/environments/environment.prod';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +15,6 @@ export class AuthService {
   public loginChanged = this._loginChangedSubject.asObservable();
 
   private get idpSettings(): UserManagerSettings {
-    if(environment.production){
       return{
         authority:environment.authority,
         client_id: 'AddressBook_User',
@@ -26,17 +25,6 @@ export class AuthService {
         automaticSilentRenew: true,
         silent_redirect_uri: environment.silent_redirect_uri
       }
-    }
-    return {
-      authority: 'https://localhost:5001',
-      client_id: 'AddressBook_User',
-      redirect_uri: 'http://localhost:4200/signin-callback',
-      scope: "openid profile EmployeeAPI.read EmployeeAPI.write roles email offline_access",
-      response_type: "code",
-      post_logout_redirect_uri: 'http://localhost:4200/signout-callback',
-      automaticSilentRenew: true,
-      silent_redirect_uri: 'http://localhost:4200/assets/silent-callback.html'
-    }
   }
 
   constructor(private router: Router) {

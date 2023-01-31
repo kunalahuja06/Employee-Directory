@@ -131,7 +131,8 @@
                 {
                     throw new Exception("Error signing in, retry from log in page");
                 }
-                return Redirect("http://localhost:4200/register-callback");
+                //return Redirect("http://localhost:4200/register-callback"); //localhost testing
+                return Redirect("https://employee-directory-2023.azurewebsites.net");
  
             }
 			

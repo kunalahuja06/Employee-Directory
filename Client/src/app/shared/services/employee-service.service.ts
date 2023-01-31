@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import { map, Subject } from 'rxjs';
 import { retry, catchError } from 'rxjs/operators';
 import {HttpClient} from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 @Injectable({
   providedIn: 'root'
 })
@@ -9,7 +10,7 @@ import {HttpClient} from '@angular/common/http';
 export class EmployeeService {
 
   constructor(private client:HttpClient) {this.getEmployees();this.emp();}
-  private url='https://localhost:6001/'
+  private url=environment.apiUrl;
 
 
   empHome=new Subject();

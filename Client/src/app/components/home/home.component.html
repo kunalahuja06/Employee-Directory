@@ -21,7 +21,7 @@
     <div class="py-3 pe-2 d-flex justify-content-end">
         <!-- add employee mobile UI-->
         <a href="#" class="add-employee text-capitalize text-decoration-none text-white p-2"
-            (click)="openEnd(addEmployee)" *ngIf="mobileView">add employee</a>
+            (click)="openEnd(addEmployee)" *ngIf="mobileView  &&(isAuthenticated && isUserAdmin)">add employee</a>
     </div>
     <div class="col-lg-2" *ngIf="!mobileView">
         <!--filters desktop-->

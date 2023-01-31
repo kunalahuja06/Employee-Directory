@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { AuthService } from './../../shared/services/auth-service.service';
 import { Router } from '@angular/router';
+import { environment } from 'src/environments/environment';
 @Component({
   selector: 'app-auth',
   templateUrl: './auth.component.html',
@@ -23,5 +24,5 @@ export class AuthComponent implements OnInit {
   login(){
     this.authService.login();
   }
-  register:string='https://localhost:5001/Account/register';
+  register:string=environment.register;
 }
