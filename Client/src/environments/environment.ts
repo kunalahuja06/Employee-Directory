@@ -9,7 +9,7 @@ export const environment = {
   redirectUri:'http://localhost:4200/signin-callback',
   postLogoutRedirectUri:'http://localhost:4200/signout-callback',
   silent_redirect_uri:'http://localhost:4200/assets/silent-callback.html',
-  register:'https://localhost:5001/account/register',
+  register:'http://localhost:5001/account/register',
 };
 
 /*
