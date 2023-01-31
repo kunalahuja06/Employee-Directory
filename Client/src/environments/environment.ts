@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl:'http://localhost:6001/',
+  apiUrl:'https://localhost:6001/',
   authority:'https://localhost:5001',
   redirectUri:'http://localhost:4200/signin-callback',
   postLogoutRedirectUri:'http://localhost:4200/signout-callback',
