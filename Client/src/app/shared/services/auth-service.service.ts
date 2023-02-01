@@ -18,10 +18,10 @@ export class AuthService {
       return{
         authority:environment.authority,
         client_id: 'AddressBook_User',
-        redirect_uri: environment.redirectUri,
+        redirect_uri: environment.redirect_uri,
         scope: "openid profile EmployeeAPI.read EmployeeAPI.write roles email offline_access",
         response_type: "code",
-        post_logout_redirect_uri: environment.postLogoutRedirectUri,
+        post_logout_redirect_uri: environment.post_logout_redirect_uri,
         automaticSilentRenew: true,
         silent_redirect_uri: environment.silent_redirect_uri
       }

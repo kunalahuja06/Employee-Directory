@@ -6,10 +6,10 @@ export const environment = {
   production: false,
   apiUrl:'https://localhost:6001/',
   authority:'https://localhost:5001',
-  redirectUri:'http://localhost:4200/signin-callback',
-  postLogoutRedirectUri:'http://localhost:4200/signout-callback',
+  redirect_uri:'http://localhost:4200/signin-callback',
+  post_logout_redirect_uri:'http://localhost:4200/signout-callback',
   silent_redirect_uri:'http://localhost:4200/assets/silent-callback.html',
-  register:'http://localhost:5001/account/register',
+  register:'http://localhost:5001/account/register'
 };
 
 /*
