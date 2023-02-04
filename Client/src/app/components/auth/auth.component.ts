@@ -24,5 +24,8 @@ export class AuthComponent implements OnInit {
   login(){
     this.authService.login();
   }
-  register:string=environment.register;
+  registerUrl:string=environment.register;
+  register(){
+    window.location.href = this.registerUrl;
+  }
 }
