@@ -1,17 +1,17 @@
-<div [ngClass]="{'employee col-3':!mobileView,'employee-mobile mb-3 mx-auto':mobileView}" class="d-flex" id="employee" (click)="mobileView?openBottom(mobileContent):openVerticallyCentered(content)">
+<div  role="button"[ngClass]="{'employee col-3':!mobileView,'employee-mobile mb-3 mx-auto':mobileView}" class="d-flex" id="employee" (click)="mobileView?openBottom(mobileContent):openVerticallyCentered(content)">
   <div>
       <img src={{employee.picture}} class="picture p-2" [class.picture-mobile]="mobileView">
   </div>
   <div class="p-2 pe-4" [class.pe-4]="!mobileView" [class.d-flex]="mobileView" [class.align-items-center]="mobileView">
-      <h5 class="employee-name text-nowrap m-0"><a href="#" class=" employee-name-a text-decoration-none" [class.fs-6]="mobileView" [class.fw-normal]="mobileView">{{employee.preferredName}}</a></h5>
+      <h5 class="employee-name text-nowrap m-0"><a class=" employee-name-a text-decoration-none" [class.fs-6]="mobileView" [class.fw-normal]="mobileView">{{employee.preferredName}}</a></h5>
       <p class="job-title text-nowrap m-0 text-capitalize" *ngIf="!mobileView">{{employee.jobTitle}}</p>
       <p class="department text-nowrap m-0" *ngIf="!mobileView">{{employee.department}} Department</p>
       <span class="d-flex" *ngIf="!mobileView">
-          <a href="#" class="contact-icon me-2"><i class="fa-solid fa-square-phone"></i></a>
-          <a href="#" class="contact-icon me-2"><i class="fa-solid fa-envelope"></i></a>
-          <a href="#" class="contact-icon me-2"><i class="fa-solid fa-comment"></i></a>
-          <a href="#" class="contact-icon me-2"><i class="fa-solid fa-star"></i></a>
-          <a href="#" class="contact-icon me-2"><i class="fa-solid fa-heart"></i></a>
+          <a class="contact-icon me-2"><i class="fa-solid fa-square-phone"></i></a>
+          <a class="contact-icon me-2"><i class="fa-solid fa-envelope"></i></a>
+          <a class="contact-icon me-2"><i class="fa-solid fa-comment"></i></a>
+          <a class="contact-icon me-2"><i class="fa-solid fa-star"></i></a>
+          <a class="contact-icon me-2"><i class="fa-solid fa-heart"></i></a>
       </span>
   </div>
 <ng-template #mobileContent let-offcanvas>
@@ -20,8 +20,10 @@
     </div>
     <div class="offcanvas-body px-4 pb-0">
         <!-- Body -->
+       <div class="mx-auto">
         <img src={{employee.picture}} alt="user" class="me-auto mx-auto user-img">
         <h1 class="fw-normal my-3">{{employee.preferredName}}</h1>
+       </div>
         <div class="pb-4">
             <p class="fw-normal mb-0 emp-details-mobile text-capitalize">{{employee.jobTitle}}</p>
             <p class="fw-normal mb-0 emp-details-mobile text-capitalize">{{employee.department}} Department</p>
@@ -55,7 +57,7 @@
             </div>
         </div>
         <!--  -->
-        <div class="d-flex justify-content-around mt-4">
+        <div class="d-flex justify-content-around fixed-bottom my-2">
             <span class="fs-2" (click)="openVerticallyCentered(confirmDelete)" *ngIf="isUserAuthenticated && isUserAdmin"><i class="fa-solid fa-trash text-primary"></i></span>
             <span class="fs-2" (click)="openEnd(editFormMobile)" (click)="triggerEdit()" *ngIf="isUserAuthenticated && (isUserAdmin || userCanEdit)"><i class="fa-solid fa-pencil text-secondary"></i></span>
         </div>
@@ -72,11 +74,11 @@
             <p class="text-primary fw-bold mb-0">{{employee.preferredName}}</p>
         </div>
         <div class="row py-1 br">
-            <div class="col">
+            <div class="col me-2">
                 <label for="firstname" class="show-employee-modal-label">First Name</label>
                 <p class="fw-bold text-primary mb-0">{{employee.firstName}}</p>
             </div>
-            <div class="col">
+            <div class="col me-2">
                 <label for="lastname" class="show-employee-modal-label">Last Name</label>
                 <p class="fw-bold text-primary mb-0">{{employee.lastName}}</p>
             </div>
@@ -86,21 +88,21 @@
             <p class="fw-bold text-primary mb-0">{{employee.email}}</p>
         </div>
         <div class="row py-1 br">
-            <div class="col">
+            <div class="col me-2">
                 <label for="number" class="show-employee-modal-label">Phone-Number</label>
                 <p class="col text-primary fw-bold mb-0">{{employee.phoneNumber}}</p>
             </div>
-            <div class="col">
+            <div class="col me-2">
                 <label for="skypeid" class="show-employee-modal-label ">Skype ID</label>
                 <p class="col fw-bold text-primary mb-0">{{employee.skypeID}}</p>
             </div>
         </div>
         <div class="row py-1 br">
-            <div class="col">
+            <div class="col me-2">
                 <label for="jobtitle" class="show-employee-modal-label ">Job Title</label>
                 <p class="fw-bold text-primary mb-0">{{employee.jobTitle}}</p>
             </div>
-            <div class="col">
+            <div class="col me-2">
                 <label for="department" class="show-employee-modal-label ">Department</label>
                 <p class="fw-bold text-primary mb-0">{{employee.department}}</p>
             </div>

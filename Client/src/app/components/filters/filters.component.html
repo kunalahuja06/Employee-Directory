@@ -1,7 +1,7 @@
 <div class="pb-2">
     <p class="filter-title text-capitalize fs-6 fw-bold m-0 pb-1" [ngClass]="{'filter-title-mobile':mobileView}">{{title}}</p>
     <ul class="p-0 filter-ul">
-        <li *ngFor="let f of filter" class="filter-li" #filters><a href="#" class="filter-li-a text-decoration-none" (click)="getFilteredEmployees($event)">{{f}}</a><span></span></li>
+        <li *ngFor="let f of filter" class="filter-li" #filters><a role="button" class="filter-li-a text-decoration-none " (click)="getFilteredEmployees($event)">{{f}}</a><span></span></li>
     </ul>
     <p *ngIf="title=='job titles';then viewMore" class="p-0"></p>
     <ng-template #viewMore>

@@ -20,7 +20,7 @@
     <!-- Main content-->
     <div class="py-3 pe-2 d-flex justify-content-end">
         <!-- add employee mobile UI-->
-        <a href="#" class="add-employee text-capitalize text-decoration-none text-white py-2 px-3 rounded-pill fw-bold"
+        <a role="button" class="add-employee text-capitalize text-decoration-none text-white py-2 px-3 rounded-pill fw-bold"
             (click)="openEnd(addEmployee)" *ngIf="mobileView  &&(isAuthenticated && isUserAdmin)">add employee</a>
     </div>
     <div class="col-lg-2" *ngIf="!mobileView">
@@ -35,10 +35,10 @@
             [ngClass]="{'employees row flex-row align-content-start mx-0 px-3 pt-3 justify-conetnt-lg-evenly':!mobileView,'col-11':mobileView}">
         </app-employees>
         <ul class="search-alphabets p-0 col-1 me-1" *ngIf="mobileView">
-            <li *ngFor="let i of alphabets" class="search-alphabets-li list-group-item"><a href="#"
+            <li *ngFor="let i of alphabets" class="search-alphabets-li list-group-item"><a role="button"
                     class="search-alphabets-li-a text-decoration-none text-capitalize"
                     (click)="searchByAlphabets(i)">{{i}}</a></li>
-            <li class="search-alphabets-li list-group-item"><a href="#"
+            <li class="search-alphabets-li list-group-item"><a role="button"
                     class="search-alphabets-li-a text-decoration-none text-capitalize" (click)="showEmployees()">#</a>
             </li>
         </ul>

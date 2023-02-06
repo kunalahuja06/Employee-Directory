@@ -11,6 +11,9 @@ export class RegisterCallbackComponent implements OnInit {
   constructor(private authService:AuthService) { }
 
   ngOnInit(): void {
+    setTimeout(() => {
+      this.login();
+    }, 1000);
   }
   login(){
     this.authService.login();

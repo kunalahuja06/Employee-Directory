@@ -42,9 +42,14 @@ export class FiltersComponent implements OnInit {
   @Input() title:any
 
   getFilteredEmployees(e:any):void{
+    let filterList=document.querySelectorAll('.filter-li')
+    filterList.forEach((filter:any)=>{
+      filter.children[0].classList.remove('fw-bold')
+    })
     this.offcanvas.dismiss()
-    let filter=e.target.innerText
-    this.employeeService.Filter(filter)
+    let filter=e.target
+    filter.classList.add('fw-bold')
+    this.employeeService.Filter(filter.innerText)
   }
   
   viewMoreBtn='view more'

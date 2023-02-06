@@ -3,13 +3,14 @@ import { map, Subject } from 'rxjs';
 import { retry, catchError } from 'rxjs/operators';
 import {HttpClient} from '@angular/common/http';
 import { environment } from 'src/environments/environment';
+import { AuthService } from './auth-service.service';
 @Injectable({
   providedIn: 'root'
 })
 
 export class EmployeeService {
 
-  constructor(private client:HttpClient) {this.getEmployees();this.emp();}
+  constructor(private client:HttpClient,private authService:AuthService) {this.getEmployees();this.emp();}
   private url=environment.apiUrl;
 
 
@@ -29,11 +30,13 @@ export class EmployeeService {
         })
       );
   }
-  emp(){
+  async emp(){
+    if(await this.authService.isAuthenticated()){
     this.getEmployees().subscribe((data:any)=>{
       this.employees=data.employees.result;
       this.empHome.next(data.employees.result);
     })
+  }
   }
   handleError(error:any):any {
     let errorMessage = '';
@@ -124,7 +127,7 @@ export class EmployeeService {
   getCount(filter:any):number{
     let res=0;
     this.employees.forEach((employee:any)=>{
-      if(employee.department==filter || employee.office.toLowerCase()==filter || employee.jobTitle.toLowerCase()==filter){
+      if(employee.department==filter || employee.office.toLowerCase()==filter || employee.jobTitle.toLowerCase()==filter.toLowerCase()){
         res++;
       }
     })

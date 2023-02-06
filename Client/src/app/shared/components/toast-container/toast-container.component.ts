@@ -23,7 +23,7 @@ import { NgbToastModule } from '@ng-bootstrap/ng-bootstrap';
 			<ng-template #text>{{ toast.textOrTpl }}</ng-template>
 		</ngb-toast>
 	`,
-	host: { class: 'toast-container', style: 'z-index: 1200' },
+	host: { class: 'toast-container', style: 'z-index: 1200;position:absolute;top:102px !important' },
 })
 export class ToastsContainerComponent {
 	constructor(public toastService: ToastService) {}

@@ -45,6 +45,10 @@ export class SearchBarComponent implements OnInit {
   }
 
   showEmployees(): void {
+    let filterList=document.querySelectorAll('.filter-li')
+    filterList.forEach((filter:any)=>{
+      filter.children[0].classList.remove('fw-bold')
+    })
     this.employeeService.sendAllEmployees(this.employeeService.employees)
   }
 

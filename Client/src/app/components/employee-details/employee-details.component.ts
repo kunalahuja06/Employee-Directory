@@ -40,7 +40,7 @@ export class EmployeeDetailsComponent implements OnInit {
   jobTitleValue: any;
   getEmployeeData: any = {}
   officeList: any[] = ["Seattle", "India"]
-  jobTitlesList: any[] = ["Sharepoint Practice Head", ".net development lead", "recruiting expert", "BI developer", "business analyst"]
+  jobTitlesList: any[] = ["SharePoint Practice Head", ".net development lead", "recruiting expert", "BI developer", "business analyst"]
   employeeFormTitle: any = this.employeeService.employeeFormTitle
 
   closeModal(): void {

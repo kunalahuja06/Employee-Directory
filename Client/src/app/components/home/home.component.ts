@@ -53,18 +53,18 @@ export class HomeComponent implements OnInit {
   }
 
   showEmployees():void{
-    this.employeeService.sendAllEmployees(this.employees)
+    this.employeeService.sendAllEmployees(this.employeeService.employees)
   }
 
   searchByAlphabets(alphabet:any):void{
     this.employeeService.searchAlphebetically(alphabet)
   }
 
-  search():void{
+  search(): void {
     const re = new RegExp(this.searchInput, 'gi');
-    let searchedEmployees = this.employees.filter((emp: any) => emp[this.searchFilterInput].match(re));
-    this.employeeService.sendSearchedEmployees(searchedEmployees) 
-  }
+    let searchedEmployees = this.employeeService.employees.filter((emp: any) => emp[this.searchFilterInput].match(re));
+    this.employeeService.sendSearchedEmployees(searchedEmployees)
+  }  
   // 
     open(content:any) {
 		  this.offcanvasService.open(content, { ariaLabelledBy: 'offcanvas-basic-title' }).result.then();
