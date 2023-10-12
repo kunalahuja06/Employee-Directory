@@ -1,5 +1,4 @@
 # Employee-Directory
-## [Live link - Employee-directory](https://employee-directory-2023.azurewebsites.net/)
 
 Employee-Directory is web application to manage employee information.
 
